@@ -1,0 +1,143 @@
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #474747;
+    margin-top: 56px;
+    margin-bottom: 28px;
+    width: 30%;
+    margin-left: 80px;
+}
+
+.info{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 80px;
+}
+
+.img-container{
+    width: 100%;
+    height: 480px;
+    position: relative;
+    text-align: center;  
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000000 100%), url(../img/GII_gral_hero.jpg);
+    background-position: 0% 48%; 
+    background-size:cover;
+}
+
+.img-centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 99%;
+    padding: 14%;
+}
+
+  .img-article{
+    background-image: url(../img/GII_gral_article.jpg);
+    background-position: 0% 52%; 
+    background-size: cover; 
+    object-fit: cover;
+    height: 440px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 32px;
+    margin-bottom: 56px;
+}
+
+.row{
+    margin-top: 64px;
+    margin-right: 80px;
+}
+
+/*PHONE RESPONSIVENESS*/
+@media screen and (max-width: 766px){
+    .navbar.bg-gradient {
+        background: #FFF !important; /*prevent gradient bar on mobile devices */
+    }
+
+    .img-container{
+        margin-left: 16px;
+        width: 92%;
+        margin-top: 80px;
+        height: 128px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 16px;
+        width: fit-content;
+    }
+
+    .img-article{
+        height: 115px;
+        width: 92%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 24px;
+        background-size: cover;
+    }
+
+    .info{
+        font-size: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .row{
+        margin-top: 16px;
+        margin-right: 16px;
+    }
+
+}
+
+/*TABLET RESPONSIVENESS*/
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .navbar.bg-gradient {
+        background: #FFF !important; /*prevent gradient on mobile devices */
+    }
+
+    .img-container{
+        margin-left: 45px;
+        width: 89%;
+        margin-top: 80px;
+        height: 244px;
+    }
+
+    .img-centered-text h1{
+        font-size: 39px;
+    }
+
+    h2{
+        width: fit-content;
+        margin-left: 48px;
+    }
+
+    .info{
+        font-size: 16px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .row{
+        margin-top: 48px;
+        margin-right: 48px;
+    }
+}

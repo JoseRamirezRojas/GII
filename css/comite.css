@@ -1,0 +1,126 @@
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    color: #474747;
+    text-align: center;
+    margin: 54px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.line-names{
+    background: linear-gradient(to right, #027B00, #0067A0);
+    height: 3px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+
+.row{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 88px;
+}
+
+.info-pos{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #3A3A3A;
+    margin-bottom: 32px;
+    margin-top: -8px;
+}
+
+.info-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #3A3A3A;
+}
+  
+.img-article{
+    background-image: url(../img/comite_hero.jpg);
+    background-position: 0% 52%; 
+    background-size: cover; 
+    height: 480px;
+    width: 99%;
+    margin-bottom: 40px;
+    object-fit: cover;
+}
+
+.comite-desktop, .colab-desktop{
+    display: flex;
+}
+
+
+/*PHONE RESPONSIVENESS*/
+@media screen and (max-width: 766px){
+    .navbar.bg-gradient {
+        background: #FFF !important; /*prevent gradient bar on mobile devices */
+    }
+
+    .img-article{
+        margin-top: 80px;
+        height: 160px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .line-names{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .row{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .comite-desktop, .colab-desktop{
+        display: none;
+    }
+
+    .comite-mobile, .colab-mobile{
+        display: flex;
+    }
+}
+
+/*TABLET RESPONSIVENESS*/
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .navbar.bg-gradient {
+        background: #FFF !important; /*prevent gradient on mobile devices */
+    }
+
+    .img-article{
+        margin-top: 80px;
+        height: 280px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .line-names{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .row{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .comite-desktop, .colab-desktop{
+        display: none;
+    }
+}

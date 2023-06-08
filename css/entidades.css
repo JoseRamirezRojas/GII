@@ -1,0 +1,108 @@
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 125.5%;
+    color: #474747;
+    text-align: center;
+    margin: 54px;
+  }
+
+  .line-names{
+    background: linear-gradient(to right, #027B00, #0067A0);
+    height: 3px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 40px;
+  }
+
+  .info-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #3A3A3A;
+  }
+  
+.img-article{
+    background-image: url(../img/entidades_hero.jpg);
+    background-position: 0% 52%; 
+    background-size: 100% 800px; 
+    background-size: cover;
+    object-fit: cover;
+    height: 480px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.row{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.entity-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 150%;
+    /* or 30px */
+    text-decoration-line: underline;
+    /* blue_500 */
+    color: #0067A0;
+}
+
+/*PHONE RESPONSIVENESS*/
+@media screen and (max-width: 766px){
+  .navbar.bg-gradient {
+      background: #FFF !important; /*prevent gradient bar on mobile devices */
+  }
+
+  .img-article{
+      margin-top: 80px;
+      height: 128px;
+      width: 98%;
+      margin-left: 1%;
+      margin-right: 1%;
+      background-size: cover;
+  }
+
+  h1{
+      font-size: 32px;
+  }
+
+  .line-names{
+      margin-left: 16px;
+      width: 92%;
+  }
+  .row{
+      margin-left: 16px;
+      margin-right: 16px;
+  }
+}
+
+/*TABLET RESPONSIVENESS*/
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .navbar.bg-gradient {
+      background: #FFF !important; /*prevent gradient on mobile devices */
+  }
+
+  .img-article{
+      margin-top: 80px;
+      height: 280px;
+      width: 100%;
+      background-size: cover;
+  }
+
+  .line-names{
+      margin-left: 48px;
+      width: 88%;
+  }
+
+  .row{
+      margin-left: 48px;
+      margin-right: 48px;
+  }
+}

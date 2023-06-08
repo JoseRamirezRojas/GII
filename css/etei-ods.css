@@ -1,0 +1,105 @@
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    color: #474747;
+    text-align: left;
+    margin:0 180px;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    /* identical to box height, or 42px */
+    color: #474747;
+    text-align: left;
+    margin:24px 180px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.info{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3A3A3A;
+    margin:24px 180px;
+}
+  
+.img-article{
+    background-image: url(../img/etei_hero.jpg);
+    background-position: 0% 52%; 
+    background-size: cover;
+    object-fit: cover; 
+    height: 440px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/*PHONE RESPONSIVENESS*/
+@media screen and (max-width: 766px){
+    .navbar.bg-gradient {
+        background: #FFF !important; /*prevent gradient bar on mobile devices */
+    }
+
+    .img-article{
+        margin-top: 80px;
+        height: 180px;
+        min-width: 100%;
+        background-size: cover;
+    }
+
+    h1{
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 32px;
+    }
+
+    h3{
+        margin: 24px 16px;
+    }
+
+    .info{
+        margin: 24px 16px;
+        font-size: 16px;
+    }
+}
+
+/*TABLET RESPONSIVENESS*/
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .navbar.bg-gradient {
+        background: #FFF !important; /*prevent gradient on mobile devices */
+    }
+
+    .img-article{
+        margin-top: 80px;
+        height: 280px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    h1{
+        margin-left: 48px;
+        margin-right: 48px;
+        font-size: 40px;
+    }
+
+    h3{
+        margin: 24px 48px;
+    }
+
+    .info{
+        margin-left: 48px;
+        margin-right: 56px;
+    }
+
+}
