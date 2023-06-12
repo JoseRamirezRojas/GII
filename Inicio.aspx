@@ -102,7 +102,7 @@
           <!-- <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button> --> </p>
         </div>
       </div>
-      <!-- <div class="carousel-item">
+      <div class="carousel-item">
         <img src="img/inicio/home_hero_bg_3.jpg" class="d-block w-100" alt="VIDEO">
         <div class="carousel-caption d-none d-md-block">
           <h1>(Video de la directora explicando la importancia de los GII)</h1>
@@ -112,7 +112,7 @@
           <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="active button-indic" aria-label="Slide 3"></button> </p>
         </div>
-      </div> -->
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -175,8 +175,8 @@
       </a>
     </div>
   </div>
-  <!-- <div class="row  d-lg-none d-xl-none d-xxl-none">
-    <a href="Video-directora.aspx">  <!-- TABLET
+  <div class="row  d-lg-none d-xl-none d-xxl-none">
+    <a href="Video-directora.aspx">  <!-- TABLET -->
       <div class="hero-video-tablet d-none d-sm-none d-md-block" >
         <div class="card-content">
           <h1>(Video de la directora explicando la importancia de los GII)</h1>
@@ -188,7 +188,7 @@
           </div>
         </div>
       </div>
-      <div class="hero-phone d-block d-md-none" id="hero-video-phone"> <!-- CELLPHONE
+      <div class="hero-phone d-block d-md-none" id="hero-video-phone"> <!-- CELLPHONE -->
         <div class="card-content">
           <h1 style="font-size: 16px;">(Video de la directora explicando la importancia de los GII)</h1>
           <div class="row ">
@@ -198,7 +198,7 @@
         </div>
       </div>
     </a>
-  </div> -->
+  </div>
   <!-- HERO CARDS for medium or smaller size screens-->
 
   <!-- CARDS -->

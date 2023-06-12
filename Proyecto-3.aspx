@@ -137,18 +137,18 @@
           <p class="col-text" style="color: #0067A0; font-weight: 700;  margin-bottom: 8px;">Colaboradores </p>
           <p class="col-text">Alma Ch&aacute;vez Mej&iacute;a, IIUNAM. </p>
           <p class="col-text">Ana Cecilia Espinosa Garc&iacute;a,  IE.</p>
-          <p class="col-text">Anabel L&iacute;pez Ortiz, IER. </p>
+          <p class="col-text">Anabel L&oacute;pez Ortiz, IER. </p>
           <p class="col-text">Anastazia Banaszak, ICML.</p>
           <p class="col-text">Camilo Arancibia Bulnes, IER.</p>
           <p class="col-text">Carlos Echeverr&iacute;a Arjonilla, IIUNAM. </p>
-          <p class="col-text">Cecilia Enriquez Ort&iacute;z, ENES-M&eacute;rida.</p>
+          <p class="col-text">Cecilia Enr&iacute;quez Ortiz, ENES-M&eacute;rida.</p>
           <p class="col-text">Christian Appendini Albrechtsen, IIUNAM.</p>
           <p class="col-text">Dafne Garc&iacute;a Trejo, IIUNAM.</p>
           <p class="col-text">David Morill&iacute;n G&aacute;lvez, IIUNAM. </p>
           <p class="col-text">Diego Aravena, IIUNAM.</p>
           <p class="col-text">Dulce Mar&iacute;a Arias Liz&aacute;rraga, IER.</p>
           <p class="col-text">Eden Maga&ntilde;a Gallegos, ICML.</p>
-          <p class="col-text">Edgar Escalante Mancera, IIUNAM.</p>
+          <p class="col-text">Edgar Escalante Mancera, ICML.</p>
           <p class="col-text">Eduardo Torres Conde, ICML.</p>
           <p class="col-text">Elier Sandoval S&aacute;nchez, IIUNAM.</p>
         </div> 
@@ -167,7 +167,7 @@
           <p class="col-text">Jonathan Ben&iacute;tez Gallardo, IIUNAM.</p>
           <p class="col-text">Jorge Rosas, IIUNAM.</p>
           <p class="col-text">Jos&eacute; Carlos Pintado Pati&ntilde;o, ENES-M&eacute;rida.</p>
-          <p class="col-text">Jos&eacute; Luis L&iacute;pez Miranda, IIUNAM.</p>
+          <p class="col-text">Jos&eacute; Luis L&oacute;pez Miranda, IIUNAM.</p>
           <p class="col-text">Juan Carlos Cajas, ENES-M&eacute;rida.</p>
           <p class="col-text">Karen Hern&aacute;ndez Mendoza, IE.</p>
         </div>
@@ -178,15 +178,15 @@
           <p class="col-text">Marisa Mazari Hiriart, IE.</p>
           <p class="col-text">Maritza Liliana Arganis Ju&aacute;rez, IIUNAM.</p>
           <p class="col-text">Marlen Alexis Gonz&aacute;lez Reyna, CFATA.</p>
-          <p class="col-text">Miguel Angel Gomez Reali, ICML.</p>
+          <p class="col-text">Miguel Angel G&oacute;mez Reali, ICML.</p>
           <p class="col-text">Mireille del Carmen Escudero Castillo, IIUNAM.</p>
-          <p class="col-text">Miriam Roc&iacute;o Estevez Gonz&aacute;lez, CFATA.</p>
+          <p class="col-text">Miriam Roc&iacute;o Est&eacute;vez Gonz&aacute;lez, CFATA.</p>
           <p class="col-text">Nicol&aacute;s Iv&aacute;n Rom&aacute;n Rold&aacute;n, IER. </p>
-          <p class="col-text">Octavio Garcia Valladares, IER.</p>
+          <p class="col-text">Octavio Garc&iacute;a Valladares, IER.</p>
           <p class="col-text">Patrick Ugochukwu Okoye, IER.</p>
           <p class="col-text">Rodrigo Alonso Esparza Mu&ntilde;oz, CFATA.</p>
           <p class="col-text">Sebasti&aacute;n Agudelo, IIUNAM.</p>
-          <p class="col-text">Valeria Ch&aacute;vez Cer&iacute;n, IIUNAM.</p>
+          <p class="col-text">Valeria Ch&aacute;vez Cer&oacute;n, IIUNAM.</p>
           <p class="col-text">Ziomara de la Cruz Barrag&aacute;n, IIUNAM.</p>
         </div>
       </div>
