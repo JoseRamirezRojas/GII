@@ -55,8 +55,8 @@
           <a class="nav-link" href="Lideres-colaboradores.aspx">L&Iacute;DERES Y COLABORADORES</a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
-            <!-- <hr class="line-dropdown">
-            <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>-->
+            <hr class="line-dropdown">
+            <li><a class="dropdown-item" href="Video-directora.aspx">Video de 
           </ul>
         </li>
         <li class="nav-item sections">

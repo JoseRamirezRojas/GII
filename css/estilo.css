@@ -369,7 +369,7 @@ width: 30%;
     #lideres:hover>.dropdown-menu{
         display: block;
         width: 320px;
-        height: 60px;
+        height: 130px;
     }
 
     .dropdown-item:hover{

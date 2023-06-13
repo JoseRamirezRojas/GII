@@ -55,8 +55,8 @@
           <a class="nav-link active" href="Lideres-colaboradores.aspx">L&Iacute;DERES Y COLABORADORES</a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
-            <!-- <hr class="line-dropdown">
-            <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>-->
+            <hr class="line-dropdown">
+            <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>
           </ul>
         </li>
         <li class="nav-item sections">
@@ -74,10 +74,10 @@
 </nav>
 <!-- HEADER -->
   <iframe src="https://www.youtube.com/embed/Of5fIfqt7Zo" frameborder="0"></iframe>    
-</div>
+  <h1 >Palabras de la Doctora Rosa María Ramírez</h1>
+  <p class="info" style="font-size: 16px; color: #696969; ">La Directora del Instituto de ingenier&iacute;a de la Universidad Nacional Aut&oacute;noma de M&eacute;xico nos habla sobre la importancia de los GII</p>
+
   
-  <h1 >La directora del IIUNAM nos habla sobre la importancia de los GII</h1>
-  <p class="info" style="font-size: 16px; color: #696969; ">La directora del IIUNAM nos habla sobre la importancia de los GII</p>
   <footer>  
     <div class="limitador">
       

@@ -58,8 +58,8 @@
           <a class="nav-link" href="Lideres-colaboradores.aspx">L&Iacute;DERES Y COLABORADORES</a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
-            <!-- <hr class="line-dropdown">
-            <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li> -->
+            <hr class="line-dropdown">
+            <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li> 
           </ul>
         </li>
         <li class="nav-item sections">
@@ -85,10 +85,12 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>&iquest;Qu&eacute; son los grupos interdisciplinarios de investigaci&oacute;n (GII)?</h1>
           <p>Los GII permiten orientar la investigaci&oacute;n que se realiza en el IIUNAM hacia la atenci&oacute;n de temas estrat&eacute;gicos.</p>
-          <p> <button type="button" class="btn btn-sm" onclick="document.location = 'Grupos.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active button-indic" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
-          <!-- <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button>  --></p>
+          <p>
+            <button type="button" class="btn btn-sm" onclick="document.location = 'Grupos.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active button-indic" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button> 
+          </p>
         </div>
       </div>
       <div class="carousel-item">
@@ -96,17 +98,19 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>Proyectos aprobados en la convocatoria GII 2023</h1>
           <p>Conoce los 4 proyectos aprobados en la convocatoria 2023 de los Grupos Interdisciplinarios de Investigaci&oacute;n.</p>
-          <p> <button type="button" class="btn btn-sm" onclick="document.location = 'Convocatoria-2023.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="active button-indic" aria-label="Slide 2"></button>
-          <!-- <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button> --> </p>
+          <p>
+            <button type="button" class="btn btn-sm" onclick="document.location = 'Convocatoria-2023.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="active button-indic" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button> 
+          </p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/inicio/home_hero_bg_3.jpg" class="d-block w-100" alt="VIDEO">
         <div class="carousel-caption d-none d-md-block">
           <h1>(Video de la directora explicando la importancia de los GII)</h1>
-          <p>Los GII ayudan a generar soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
+          <p>Los GII generan soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
           <p> <button type="button" class="btn btn-sm"  onclick="document.location = 'Video-directora.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
           <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
@@ -179,7 +183,7 @@
     <a href="Video-directora.aspx">  <!-- TABLET -->
       <div class="hero-video-tablet d-none d-sm-none d-md-block" >
         <div class="card-content">
-          <h1>(Video de la directora explicando la importancia de los GII)</h1>
+          <h1>Palabras de la Directora Rosa María Ramírez sobre los GII</h1>
           <p>Los GII ayudan a generar soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
           <div class="row ">
             <div class="col-1"> </div>
