@@ -74,7 +74,7 @@
 </nav>
 <!-- HEADER -->
   <iframe src="https://www.youtube.com/embed/Of5fIfqt7Zo" frameborder="0"></iframe>    
-  <h1 >Palabras de la Doctora Rosa María Ramírez</h1>
+  <h1 >Palabras de la Directora Rosa Mar&iacute;a Ram&iacute;rez sobre los GII</h1>
   <p class="info" style="font-size: 16px; color: #696969; ">La Directora del Instituto de ingenier&iacute;a de la Universidad Nacional Aut&oacute;noma de M&eacute;xico nos habla sobre la importancia de los GII</p>
 
   

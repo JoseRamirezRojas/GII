@@ -109,7 +109,7 @@
       <div class="carousel-item">
         <img src="img/inicio/home_hero_bg_3.jpg" class="d-block w-100" alt="VIDEO">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Palabras de la Directora Rosa María Ramírez sobre los GII</h1>
+          <h1>Palabras de la Directora Rosa Mar&iacute;a Ram&iacute;rez sobre los GII</h1>
           <p>Los GII generan soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
           <p> <button type="button" class="btn btn-sm"  onclick="document.location = 'Video-directora.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
           <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
@@ -183,7 +183,7 @@
     <a href="Video-directora.aspx">  <!-- TABLET -->
       <div class="hero-video-tablet d-none d-sm-none d-md-block" >
         <div class="card-content">
-          <h1>Palabras de la Directora Rosa María Ramírez sobre los GII</h1>
+          <h1>Palabras de la Directora Rosa Mar&iacute;a Ram&iacute;rez sobre los GII</h1>
           <p>Los GII ayudan a generar soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
           <div class="row ">
             <div class="col-1"> </div>
@@ -194,7 +194,7 @@
       </div>
       <div class="hero-phone d-block d-md-none" id="hero-video-phone"> <!-- CELLPHONE -->
         <div class="card-content">
-          <h1 style="font-size: 16px;">Palabras de la Directora Rosa María Ramírez sobre los GII</h1>
+          <h1 style="font-size: 16px;">Palabras de la Directora Rosa Mar&iacute;a Ram&iacute;rez sobre los GII</h1>
           <div class="row ">
             <div class="col-10"> </div>
             <div class="col-1">  <div class="project-arrow"><span class="material-symbols-outlined"> arrow_forward </span> </div> </div>
