@@ -107,7 +107,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/inicio/home_hero_bg_3.jpg" class="d-block w-100" alt="VIDEO">
+        <img src="img/inicio/captura_video.png" class="d-block w-100" alt="VIDEO">
         <div class="carousel-caption d-none d-md-block">
           <h1>Palabras de la Directora Rosa Mar&iacute;a Ram&iacute;rez sobre los GII</h1>
           <p>Los GII generan soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
