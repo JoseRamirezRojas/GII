@@ -165,6 +165,7 @@
   </footer>
   <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  <script src="js/navShadow.js"></script>
 
     <!-- Inicio Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>

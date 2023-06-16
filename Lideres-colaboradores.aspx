@@ -376,5 +376,15 @@
     </div>
   </div>
 </footer>
+<script src="js/navShadow.js"></script>
+  <!-- Inicio Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-PR893VGXNK');
+  </script>
+  <!-- Fin Google Analytics -->
 </body>
