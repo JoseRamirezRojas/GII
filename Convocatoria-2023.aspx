@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="author" content="JoseRamirez" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/GII LOGO PORTAL.svg">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins:wght@400;700">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
@@ -19,17 +20,17 @@
   <!-- HEADER -->
   <nav class="navbar fixed-top navbar-expand-lg  ">
     <div class="container-fluid">
-      <!-- different logos depending on device-->
-      <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
-        <img src="img/Logo Instituto Cuadrado BCO.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
-        <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
-        <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
-      </a>
-      <a class="navbar-brand" href="Inicio.aspx">
-        <img src="img/GII LOGO PORTAL BCO.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
-        <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
-        <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
-      </a> <!-- different logos depending on device-->
+  <!-- different size logos depending on device-->
+  <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
+    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
+    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
+    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
+  </a>
+  <a class="navbar-brand" href="Inicio.aspx">
+    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
+    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
+    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
+  </a> <!-- different size logos depending on device-->
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
@@ -58,7 +59,7 @@
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
               <hr class="line-dropdown">
-              <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>
+              <li><a class="dropdown-item" href="Video-directora.aspx">Video de la Directora</a></li>
             </ul>
           </li>
           <li class="nav-item sections">
@@ -78,16 +79,18 @@
 
   <!-- CAROUSEL-->
   <div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-lg-block " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide "></button>
+    </div>
     <div class="carousel-inner">
       <div class="carousel-item active" style=" background-image: url(img/convocatoria/convocatoria_herobg_1.jpg); background-position: 0% 52%; background-size:cover;">
         <div class="carousel-caption d-none d-md-block">
           <h1>Sisal, Yucat&aacute;n: hacia una ciudad sustentable y resiliente</h1>
           <p>El pueblo m&aacute;gico de Sisal pertenece a una zona de gran influencia biol&oacute;gica para el Caribe. </p>
           <p> <button type="button" class="btn btn-sm" id="btn-green" onclick="document.location = 'Proyecto-1.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active button-indic" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" class="button-indic" aria-label="Slide 4"></button></p>
         </div>
       </div>
       <div class="carousel-item" style=" background-image: url(img/convocatoria/convocatoria_herobg_2.jpg); background-position: 0% 52%; background-size:cover;">
@@ -95,10 +98,6 @@
           <h1>Intensificaci&oacute;n de los procesos para la obtenci&oacute;n de biocompuestos a partir de agua residual</h1>
           <p>Obtener biocompuestos a partir de agua residual ayuda a reducir impactos ambientales y aprovechar recursos.</p>
           <p> <button type="button" class="btn btn-sm" id="btn-blue" onclick="document.location = 'Proyecto-2.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="active button-indic" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" class="button-indic" aria-label="Slide 4"></button></p>
         </div>
       </div>
       <div class="carousel-item" style=" background-image: url(img/convocatoria/convocatoria_herobg_3.jpg); background-position: 0% 52%; background-size:cover;">
@@ -106,10 +105,6 @@
           <h1>Sostenibilidad del Caribe mexicano: Cambiando debilidades en fortalezas</h1>
           <p>Los ecosistemas marinos del Caribe Mexicano son el principal atractivo tur&iacute;stico y enfrentan retos complejos.</p>
           <p> <button type="button" class="btn btn-sm" id="btn-blue" onclick="document.location = 'Proyecto-3.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="active button-indic" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" class="button-indic" aria-label="Slide 4"></button></p>
         </div>
       </div>
       <div class="carousel-item" style=" background-image: url(img/convocatoria/convocatoria_herobg_4.jpg); background-position: 0% 52%; background-size:cover;">
@@ -117,10 +112,6 @@
           <h1>Cambio de paradigma: Residuos como materia prima para conciliar el eje agua-energ&iacute;a-ambiente-seguridad alimentaria.</h1>
           <p>Los problemas ambientales requieren de estrategias para mitigarlos de manera sustentable.</p>
           <p> <button type="button" class="btn btn-sm" id="btn-blue" onclick="document.location = 'Proyecto-4.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" class="active button-indic" aria-label="Slide 4"></button></p>
         </div>
       </div>
     </div>
@@ -298,18 +289,15 @@
 </div>
 <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
-</body>
-
+<!-- Inicio Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>
 <script>
-  if (window.innerWidth > 959) { // code for large screens  
-    var nav = document.querySelector('nav');
-    window.addEventListener('scroll', function() {
-      if (window.pageYOffset > 120) {
-        nav.classList.add('bg-gradient');
-      } else {
-        nav.classList.remove('bg-gradient');
-      }
-    });
-  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PR893VGXNK');
 </script>
+<!-- Fin Google Analytics -->
+</body>
 </html>

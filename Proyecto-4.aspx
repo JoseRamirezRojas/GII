@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="author" content="JoseRamirez" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/GII LOGO PORTAL.svg">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins:wght@400;700">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
@@ -21,17 +22,17 @@
 <!-- HEADER -->  
 <nav class="navbar fixed-top navbar-expand-lg  bg-gradient">
 <div class="container-fluid">
-  <!-- different logos depending on device-->
-  <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
-    <img src="img/Logo Instituto Cuadrado BCO.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
-    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
-    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
-  </a>
-  <a class="navbar-brand" href="Inicio.aspx">
-    <img src="img/GII LOGO PORTAL BCO.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
-    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
-    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
-  </a> <!-- different logos depending on device-->
+    <!-- different size logos depending on device-->
+    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
+    </a>
+    <a class="navbar-brand" href="Inicio.aspx">
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
+    </a> <!-- different size logos depending on device-->
   <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon "></span>
   </button>
@@ -60,7 +61,7 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
           <hr class="line-dropdown">
-          <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>
+          <li><a class="dropdown-item" href="Video-directora.aspx">Video de la Directora</a></li>
         </ul>
       </li>
       <li class="nav-item sections">
@@ -115,8 +116,43 @@
       <p  class="col-text" style="color: #3A3A3A;">  soluciones integradas como sistemas de producci&oacute;n energ&eacute;ticamente sustentables, el desarrollo de procesos con un control autom&aacute;tico, entendimiento de la microbiolog&iacute;a de los bioprocesos y el an&aacute;lisis de ciclo de vida para dar soluciones hol&iacute;sticas al uso de residuos como materia prima. Finalmente, se incluye un paquete integrativo de vinculaci&oacute;n y difusi&oacute;n de los resultados obtenidos, con el fin de aportar al acceso universal al conocimiento, la difusi&oacute;n y la posible transferencia tecnol&oacute;gica que pudiera resultar del proyecto. Cabe mencionar que en el proyecto interact&uacute;an 30 acad&eacute;micos de distintas instituciones de la UNAM, buscando soluciones multidisciplinarias, potencializando las capacidades de trabajo al interior del GII. Al t&eacute;rmino del proyecto planteado se contar&aacute; con un grupo que ha fortalecido y demostrado una colaboraci&oacute;n s&oacute;lida entre los participantes, reflej&aacute;ndose en la publicaci&oacute;n de art&iacute;culos y el desarrollo de procesos novedosos para la valorizaci&oacute;n de residuos.</p>
     </div> 
   </div>
-  <p class="col-text row-data  d-none d-md-block" style="color: #0067A0; font-weight: 700; margin-top: 56px; margin-bottom: 28px;">Galer&iacute;a</p>
+  <!-- SEMBLANZA-->
+  <div class="row">
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; margin-bottom: 16px;">  Dr. Iv&aacute;n Moreno Andrade </p>
+      <img  class="row-data" src="img/convocatoria/residuos/Imagen1.png" style="width: 85%" />
+    </div>
+    <div class="col-lg-8">
+      <p  class=" col-text row-data" style="font-weight: 700; color: #027B00; margin-bottom: 8px; margin-top: 66px; ">Semblanza</p>
+      <br>
+      <p  class=" col-text row-data" > Es Bi&oacute;logo egresado de la Facultad de Ciencias Biol&oacute;gicas y Agropecuarias de la Universidad Veracruzana, realiz&oacute; su maestr&iacute;a y doctorado en Ciencias Biol&oacute;gicas en la UNAM, obteniendo el t&iacute;tulo en 2006. De 2007 a 2008 realiz&oacute; una estancia posdoctoral en la carrera de Ingenier&iacute;a Civil y Ambiental. Departamento de la Universidad de California en Berkeley.</p>
+      <br>
+      <p  class=" col-text row-data" > Actualmente es Investigador de tiempo completo en el Laboratorio de Investigaci&oacute;n en Procesos Avanzados de Tratamiento de Agua (LIPATA) de la Unidad Acad&eacute;mica del Instituto de Ingenier&iacute;a de Juriquilla, Quer&eacute;taro.</p>
+      <br>
+      <p  class=" col-text row-data" > Es Nivel 2 del Sistema Nacional de Investigaci&oacute;n. Tiene m&aacute;s de 70 art&iacute;culos publicados en revistas arbitradas.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Proyecto GII</p>
+      <p  class=" col-text row-data" >  Cambio de paradigma: Los residuos como materia prima para conciliar el eje agua-energ&iacute;a-medio ambiente-seguridad alimentaria (Eje estrat&eacute;gico de investigaci&oacute;n: Nexo Agua-Energ&iacute;a-Medio Ambiente-Seguridad Alimentaria).</p>
+    </div>
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Credenciales</p>
+      <p  class=" col-text row-data" > &bull; Postdoctorado, Universidad de California-Berkeley</p>
+      <p  class=" col-text row-data" > &bull; Doctorado en Ciencias Biol&oacute;gicas, Universidad Nacional Aut&oacute;noma de M&eacute;xico.</p>
+      <p  class=" col-text row-data" > &bull; Maestr&iacute;a en Ciencias Biol&oacute;gicas, Universidad Nacional Aut&oacute;noma de M&eacute;xico.</p>
+      <p  class=" col-text row-data" > &bull; Licenciatura en Biolog&iacute;a, Universidad Veracruzana.</p>
+    </div>
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Contacto</p>
+      <p class="col-text row-data"> E-mail: IMorenoA@iingen.unam.mx </p>
+      <p class="col-text row-data"> Tel. +52 442 1926171</p>
+    </div>
+  </div>
+  <!-- SEMBLANZA-->
 
+  <p class="col-text row-data  d-none d-md-block" style="color: #0067A0; font-weight: 700; margin-top: 56px; margin-bottom: 28px;">Galer&iacute;a</p>
   <section> <!-- IMAGE GALLERY -->
     <img src="img/convocatoria/residuos/Imagen1.png" />
     <img src="img/convocatoria/residuos/Imagen3.jpg" />
@@ -156,11 +192,11 @@
       <p class="col-text">Patricio Javier Valad&eacute;s Pelayo.</p>
       <p class="col-text">Jos&eacute; de Jes&uacute;s Qui&ntilde;ones Aguilar.</p>
       <p class="col-text">Karla Graciela Cedano Villavicencio.</p>
-      <p class="col-text">Manuel Mart&iacute;nez Fern&aacute;ndez.</p>
     </div>
     <div class="col-lg-4 col-md-6">
       <p class="col-text" style="color: #0067A0; font-weight: 700; margin-top: 40px; margin-bottom: 8px;">Colaboradores (Fac. de Qu&iacute;mica, UNAM)</p>
-      <p class="col-text">Herminia de Jes&uacute;s Loza Tavera, Mart&iacute;n Pedro Vargas Su&aacute;rez</p>
+      <p class="col-text">Herminia de Jes&uacute;s Loza Tavera</p>
+      <p class="col-text">Mart&iacute;n Pedro Vargas Su&aacute;rez</p>
       <p class="col-text" style="color: #0067A0; font-weight: 700;">Colaboradores (ICML, UNAM): </p>
       <p class="col-text">Mart&iacute;n F. Soto Jim&eacute;nez</p>
     </div>
@@ -259,5 +295,16 @@
 <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 <script src="js/projectsGalleryLightbox.js"></script> <!--  IMAGE GALLERY-->
+  <!-- Inicio Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PR893VGXNK');
+  </script>
+  <!-- Fin Google Analytics -->
+
 </body>
 </html>

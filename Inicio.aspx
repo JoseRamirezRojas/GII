@@ -20,17 +20,17 @@
   <!-- HEADER -->
 <nav class="navbar fixed-top navbar-expand-lg  ">
   <div class="container-fluid">
-    <!-- different logos depending on device-->
+    <!-- different size logos depending on device-->
     <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
-      <img src="img/Logo Instituto Cuadrado BCO.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
     </a>
     <a class="navbar-brand" href="Inicio.aspx">
-      <img src="img/GII LOGO PORTAL BCO.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
       <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
       <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
-    </a> <!-- different logos depending on device-->
+    </a> <!-- different size logos depending on device-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -59,7 +59,7 @@
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
             <hr class="line-dropdown">
-            <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li> 
+            <li><a class="dropdown-item" href="Video-directora.aspx">Video de la Directora</a></li> 
           </ul>
         </li>
         <li class="nav-item sections">
@@ -79,42 +79,39 @@
 
   <!-- CAROUSEL-->
   <div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-lg-block" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/inicio/home_hero_bg_1.jpg" class="d-block w-100" alt="GII">
         <div class="carousel-caption d-none d-md-block">
-          <h1>&iquest;Qu&eacute; son los grupos interdisciplinarios de investigaci&oacute;n (GII)?</h1>
+          <h1>&iquest;Qu&eacute; son los Grupos Interdisciplinarios de Investigaci&oacute;n?</h1>
           <p>Los GII permiten orientar la investigaci&oacute;n que se realiza en el IIUNAM hacia la atenci&oacute;n de temas estrat&eacute;gicos.</p>
-          <p>
+          <p class="carousel-buttons"> 
             <button type="button" class="btn btn-sm" onclick="document.location = 'Grupos.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active button-indic" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button> 
           </p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/inicio/home_hero_bg_2.jpg" class="d-block w-100" alt="PROYECTOS">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Proyectos aprobados en la convocatoria GII 2023</h1>
+          <h1>Proyectos aprobados en la convocatoria de GII 2023</h1>
           <p>Conoce los 4 proyectos aprobados en la convocatoria 2023 de los Grupos Interdisciplinarios de Investigaci&oacute;n.</p>
-          <p>
-            <button type="button" class="btn btn-sm" onclick="document.location = 'Convocatoria-2023.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="active button-indic" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="button-indic" aria-label="Slide 3"></button> 
-          </p>
+          <p class="carousel-buttons"> 
+            <button type="button" class="btn btn-sm" onclick="document.location = 'Convocatoria-2023.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button>   
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/inicio/captura_video.png" class="d-block w-100" alt="VIDEO">
         <div class="carousel-caption d-none d-md-block">
           <h1>Palabras de la Directora Rosa Mar&iacute;a Ram&iacute;rez sobre los GII</h1>
-          <p>Los GII generan soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
-          <p> <button type="button" class="btn btn-sm"  onclick="document.location = 'Video-directora.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
-          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="button-indic" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="button-indic" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" class="active button-indic" aria-label="Slide 3"></button> </p>
+          <p>Los GII ayudan a generar soluciones integrales a problemas complejos en los que la ingenier&iacute;a tiene un papel clave.</p>
+          <p class="carousel-buttons"> 
+            <button type="button" class="btn btn-sm"  onclick="document.location = 'Video-directora.aspx'">Descubre m&aacute;s <span class="material-symbols-outlined"> arrow_forward </span></button> 
+          </p>
         </div>
       </div>
     </div>
@@ -619,18 +616,18 @@
 </div>
 <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+
+  <!-- Inicio Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PR893VGXNK');
+  </script>
+  <!-- Fin Google Analytics -->
+
 </body>
 
-<script>
-   if (window.innerWidth > 959) { // code for large screens 
-    var nav = document.querySelector('nav');
-    window.addEventListener('scroll', function() {
-      if (window.pageYOffset > 120) {
-        nav.classList.add('bg-gradient');
-      } else {
-        nav.classList.remove('bg-gradient');
-      }
-    });
-  }
-  
-</script>
+</html>

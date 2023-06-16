@@ -6,8 +6,8 @@ h1{
     line-height: 125%;
     color: #474747;
     text-align: left;
-    margin-top: 72px;;
-    margin-left: 188px;
+    margin-top: 63px;;
+    margin-left: 92px;
 }
 
 a{
@@ -21,12 +21,12 @@ a{
     font-size: 20px;
     line-height: 150%;
     color: #3A3A3A;
-    margin: 0 188px;
+    margin: 0 92px;
 }
 
 iframe{
     height: 720px;
-    margin-top: 140px;
+    margin-top: 83px;
     margin-right: 80px;
     margin-left: 80px;
     width: 88%;

@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="author" content="JoseRamirez" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/GII LOGO PORTAL.svg">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins:wght@400;700">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
@@ -20,17 +21,17 @@
   <!-- HEADER -->
   <nav class="navbar fixed-top navbar-expand-lg  bg-gradient">
     <div class="container-fluid">
-      <!-- different logos depending on device-->
-      <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
-        <img src="img/Logo Instituto Cuadrado BCO.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
-        <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
-        <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
-      </a>
-      <a class="navbar-brand" href="Inicio.aspx">
-        <img src="img/GII LOGO PORTAL BCO.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
-        <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
-        <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
-      </a> <!-- different logos depending on device-->
+    <!-- different size logos depending on device-->
+    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
+    </a>
+    <a class="navbar-brand" href="Inicio.aspx">
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
+    </a> <!-- different size logos depending on device-->
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
@@ -59,7 +60,7 @@
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
               <hr class="line-dropdown">
-              <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>
+              <li><a class="dropdown-item" href="Video-directora.aspx">Video de la Directora</a></li>
             </ul>
           </li>
           <li class="nav-item sections">
@@ -86,36 +87,69 @@
   <h2>  Sostenibilidad del Caribe mexicano: Cambiando debilidades en fortalezas </h2>
   <p class="project-subtitle">Por: Grupos Interdisciplinarios de Investigaci&oacute;n</p>
   <div class="img-article-3"></div>
-      <div class="project-data ">
-        <div class="row">
-          <div class="col-lg">
-            <p style="font-weight: 700;">Nombre del proyecto: </p>
-            <p >Sostenibilidad del Caribe mexicano: Cambiando debilidades en fortalezas.</p>
-          </div>
-          <div class="col-lg">
-            <p style="font-weight: 700;">Eje Tem&aacute;tico Estrat&eacute;gico de Investigaci&iacute;n:</p>
-            <p > Nexo Agua-Energ&iacute;a-Medio Ambiente-Seguridad Alimentaria.</p>
-          </div>
-          <div class="col-lg">
-            <p style="font-weight: 700;"> L&iacute;der de proyecto:</p>
-            <p >Dr. Rodolfo Silva Casar&iacute;n, Investigador Titular C, Instituto de Ingenier&iacute;a, UNAM.</p>
-          </div>
-        </div>  
+  <div class="project-data ">
+    <div class="row">
+      <div class="col-lg">
+        <p style="font-weight: 700;">Nombre del proyecto: </p>
+        <p >Sostenibilidad del Caribe mexicano: Cambiando debilidades en fortalezas.</p>
       </div>
-      <p class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; ">Resumen</p>
-      <div class="row row-data " >
-        <div class="col-lg-4 col-md-6 order-md-1">
-          <p class="col-text" style="color: #3A3A3A;">La riqueza paisaj&iacute;stica que exhiben los ecosistemas costeros marinos de Quintana Roo ha sido el principal atractivo tur&iacute;stico de la regi&oacute;n. Sin embargo, al d&iacute;a de hoy se encuentran dram&aacute;ticamente sobreexplotados y la regi&oacute;n experimenta retos complejos relacionados con su desarrollo socioecon&oacute;mico y la conservaci&oacute;n de sus ecosistemas. Por ello, la regi&oacute;n cuenta con l&iacute;neas de actuaci&oacute;n prioritarias que incluyen la diversificaci&oacute;n de actividades econ&oacute;micas y el desarrollo tecnol&oacute;gico enfocados en: disminuir la demanda energ&eacute;tica y alimentaria (no se tiene suficiencia local); promover un mejor uso y conservaci&oacute;n de los recursos naturales (agua y ecosistemas costeros); y formar de recursos humanos localmente comprometidos con el desarrollo de una econom&iacute;a circular. <br> El proyecto <q> Sostenibilidad del Caribe mexicano: Cambiando debilidades en fortalezas </q> se enmarca en el Eje Tem&aacute;tico Estrat&eacute;gico de Investigaci&oacute;n (ETEI) Ciudades inteligentes y Nexo Agua-Energ&iacute;a-Ambiente-Seguridad alimentaria, y se centra en el desarrollo de tecnolog&iacute;as para la restauraci&oacute;n, conservaci&oacute;n y aprovechamiento m&aacute;s equilibrado de los recursos naturales del </p>
-        </div>
-        <div class="col-lg-4 col-md-6 order-md-3 order-lg-2">
-          <p class="col-text" style="color: #3A3A3A;"> Caribe mexicano. El proyecto cuenta con seis paquetes de trabajo: <br> <b>1.</b> Aprovechamiento de la energ&iacute;a renovable: desarrollo de dispositivos para el aprovechamiento de corrientes marinas no superficiales y para la generaci&oacute;n de energ&iacute;a a partir del gradiente salino utilizando aguas residuales y agua marina. <br> <b>2.</b> Restauraci&oacute;n de ecosistemas costero-acu&aacute;ticos: tecnolog&iacute;as para la restauraci&oacute;n de arrecifes de coral, praderas de pastos marinos y lagunas costeras. <br> <b>3.</b>  Restauraci&oacute;n de ecosistemas costero-terrestres: tecnolog&iacute;as para la restauraci&oacute;n de dunas costeras, manglares y selvas inundables. <br> <b>4.</b> Valorizaci&oacute;n del sargazo: desarrollo de membranas/filtros a base de sargazo para el tratamiento de aguas contaminadas e intercambio i&oacute;nico y dise&ntilde;o hidr&aacute;ulico de conducciones (tuber&iacute;as y canales) para el re&uacute;so de agua tratada con sargazo. <br> <b>5.</b> Sistemas para la reducci&oacute;n de la demanda energ&eacute;tica: sistemas de producci&oacute;n de agua dulce, energ&iacute;a, fertilizantes y agua para la calefacci&oacute;n utilizando como fuente el gradiente t&eacute;rmico marino. </p>
-        </div>
-        <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
-          <p class="col-text" style="color: #3A3A3A;">  <b>6.</b> Modelado e Instrumentaci&oacute;n. <br> <br> El equipo de trabajo est&aacute; articulado de forma transdiciplinaria para resolver los problemas clave de Quintana Roo y generar posibilidades de diversificaci&oacute;n de actividades econ&oacute;micas en el Caribe mexicano. El grupo cuenta con 58 integrantes, entre investigadores, profesores, t&eacute;cnicos y estudiantes, de diversas dependencias de la UNAM ubicadas en Ciudad Universitaria y en sedes for&aacute;neas del centro y sureste del pa&iacute;s: el Instituto de Ingenier&iacute;a - coordinaci&oacute;n de Hidr&aacute;ulica, Mec&aacute;nica y Energ&iacute;a, Ingenier&iacute;a Ambiental, El&eacute;ctrica y Computaci&oacute;n, y la Unidad Acad&eacute;mica Sisal; el Centro de F&iacute;sica Aplicada y Tecnolog&iacute;a Avanzada; la Escuela Nacional de Estudios Superiores Unidad M&eacute;rida; la Unidad Acad&eacute;mica de Sistemas Arrecifales del Instituto de Ciencias del Mar y Limnolog&iacute;a; el Laboratorio Nacional de Ciencias de la Sostenibilidad del Instituto de Ecolog&iacute;a; y el Instituto de Energ&iacute;as Renovables.</p>
-        </div> 
+      <div class="col-lg">
+        <p style="font-weight: 700;">Eje Tem&aacute;tico Estrat&eacute;gico de Investigaci&iacute;n:</p>
+        <p > Nexo Agua-Energ&iacute;a-Medio Ambiente-Seguridad Alimentaria.</p>
       </div>
+      <div class="col-lg">
+        <p style="font-weight: 700;"> L&iacute;der de proyecto:</p>
+        <p >Dr. Rodolfo Silva Casar&iacute;n, Investigador Titular C, Instituto de Ingenier&iacute;a, UNAM.</p>
+      </div>
+    </div>  
+  </div>
+  <p class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; ">Resumen</p>
+  <div class="row row-data " >
+    <div class="col-lg-4 col-md-6 order-md-1">
+      <p class="col-text" style="color: #3A3A3A;">La riqueza paisaj&iacute;stica que exhiben los ecosistemas costeros marinos de Quintana Roo ha sido el principal atractivo tur&iacute;stico de la regi&oacute;n. Sin embargo, al d&iacute;a de hoy se encuentran dram&aacute;ticamente sobreexplotados y la regi&oacute;n experimenta retos complejos relacionados con su desarrollo socioecon&oacute;mico y la conservaci&oacute;n de sus ecosistemas. Por ello, la regi&oacute;n cuenta con l&iacute;neas de actuaci&oacute;n prioritarias que incluyen la diversificaci&oacute;n de actividades econ&oacute;micas y el desarrollo tecnol&oacute;gico enfocados en: disminuir la demanda energ&eacute;tica y alimentaria (no se tiene suficiencia local); promover un mejor uso y conservaci&oacute;n de los recursos naturales (agua y ecosistemas costeros); y formar de recursos humanos localmente comprometidos con el desarrollo de una econom&iacute;a circular. <br> El proyecto <q> Sostenibilidad del Caribe mexicano: Cambiando debilidades en fortalezas </q> se enmarca en el Eje Tem&aacute;tico Estrat&eacute;gico de Investigaci&oacute;n (ETEI) Ciudades inteligentes y Nexo Agua-Energ&iacute;a-Ambiente-Seguridad alimentaria, y se centra en el desarrollo de tecnolog&iacute;as para la restauraci&oacute;n, conservaci&oacute;n y aprovechamiento m&aacute;s equilibrado de los recursos naturales del </p>
+    </div>
+    <div class="col-lg-4 col-md-6 order-md-3 order-lg-2">
+      <p class="col-text" style="color: #3A3A3A;"> Caribe mexicano. El proyecto cuenta con seis paquetes de trabajo: <br> <b>1.</b> Aprovechamiento de la energ&iacute;a renovable: desarrollo de dispositivos para el aprovechamiento de corrientes marinas no superficiales y para la generaci&oacute;n de energ&iacute;a a partir del gradiente salino utilizando aguas residuales y agua marina. <br> <b>2.</b> Restauraci&oacute;n de ecosistemas costero-acu&aacute;ticos: tecnolog&iacute;as para la restauraci&oacute;n de arrecifes de coral, praderas de pastos marinos y lagunas costeras. <br> <b>3.</b>  Restauraci&oacute;n de ecosistemas costero-terrestres: tecnolog&iacute;as para la restauraci&oacute;n de dunas costeras, manglares y selvas inundables. <br> <b>4.</b> Valorizaci&oacute;n del sargazo: desarrollo de membranas/filtros a base de sargazo para el tratamiento de aguas contaminadas e intercambio i&oacute;nico y dise&ntilde;o hidr&aacute;ulico de conducciones (tuber&iacute;as y canales) para el re&uacute;so de agua tratada con sargazo. <br> <b>5.</b> Sistemas para la reducci&oacute;n de la demanda energ&eacute;tica: sistemas de producci&oacute;n de agua dulce, energ&iacute;a, fertilizantes y agua para la calefacci&oacute;n utilizando como fuente el gradiente t&eacute;rmico marino. </p>
+    </div>
+    <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
+      <p class="col-text" style="color: #3A3A3A;">  <b>6.</b> Modelado e Instrumentaci&oacute;n. <br> <br> El equipo de trabajo est&aacute; articulado de forma transdiciplinaria para resolver los problemas clave de Quintana Roo y generar posibilidades de diversificaci&oacute;n de actividades econ&oacute;micas en el Caribe mexicano. El grupo cuenta con 58 integrantes, entre investigadores, profesores, t&eacute;cnicos y estudiantes, de diversas dependencias de la UNAM ubicadas en Ciudad Universitaria y en sedes for&aacute;neas del centro y sureste del pa&iacute;s: el Instituto de Ingenier&iacute;a - coordinaci&oacute;n de Hidr&aacute;ulica, Mec&aacute;nica y Energ&iacute;a, Ingenier&iacute;a Ambiental, El&eacute;ctrica y Computaci&oacute;n, y la Unidad Acad&eacute;mica Sisal; el Centro de F&iacute;sica Aplicada y Tecnolog&iacute;a Avanzada; la Escuela Nacional de Estudios Superiores Unidad M&eacute;rida; la Unidad Acad&eacute;mica de Sistemas Arrecifales del Instituto de Ciencias del Mar y Limnolog&iacute;a; el Laboratorio Nacional de Ciencias de la Sostenibilidad del Instituto de Ecolog&iacute;a; y el Instituto de Energ&iacute;as Renovables.</p>
+    </div> 
+  </div>
+  <!-- SEMBLANZA-->
+  <div class="row">
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; margin-bottom: 16px;">  Dr. Rodolfo Silva Casar&iacute;n</p>
+      <img  class="row-data" src="img/convocatoria/caribe/FotoPersonalRodolfo_Silva.jpg" style="width: 85%" />
+    </div>
+    <div class="col-lg-8">
+      <p  class=" col-text row-data" style="font-weight: 700; color: #027B00; margin-bottom: 8px; margin-top: 66px; ">Semblanza</p>
+      <br>
+      <p  class=" col-text row-data" >Rodolfo Silva-Casar&iacute;n (RS) es Investigador Titular y Profesor de Ingenier&iacute;a Civil en el Instituto de Ingenier&iacute;a de la Universidad Nacional Aut&oacute;noma de M&eacute;xico (UNAM), Rodolfo tiene un Ph.D. en Ingenier&iacute;a de Costas y Puertos, de la Universidad de Cantabria, Espa&ntilde;a. Desde 1995 Rodolfo es el Jefe del Grupo de Oceanograf&iacute;a y Costas de la UNAM y del Centro Mexicano de Renovables del Oc&eacute;ano. Ha sido delegado de M&eacute;xico (2011- ) y Coordinador Regional Latinoamericano (2017-2019) en el Centro de Excelencia para la Cooperaci&oacute;n al Desarrollo – Gesti&oacute;n Sostenible del Agua (EXCEED) y Delegado de M&eacute;xico en el Sistema de Energ&iacute;a Oce&aacute;nica (OES-IEA).</p>
+      <br>
+      <p  class=" col-text row-data" > Como autor o coautor cuenta con m&aacute;s de 700 publicaciones y m&aacute;s de 100 informes t&eacute;cnicos elaborados para autoridades gubernamentales locales y nacionales en M&eacute;xico, as&iacute; como empresas y organizaciones en varios pa&iacute;ses.</p>
+      <br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Proyecto GII</p>
+      <p  class=" col-text row-data" > Sustentabilidad del Caribe Mexicano: Transformando las debilidades en fortalezas (Eje estrat&eacute;gico de investigaci&oacute;n: Nexo Agua-Energ&iacute;a-Medio Ambiente-Seguridad Alimentaria).</p>
+    </div>
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Credenciales</p>
+      <p  class=" col-text row-data" > &bull; Doctorado, Ingenier&iacute;a de Caminos, Canales y Puertos, Departamento de Ciencias y T&eacute;cnicas del Agua y Ambientales, Universidad de Cantabria, Cantabria, Espa&ntilde;a</p>
+      <p  class=" col-text row-data" > &bull; Maestr&iacute;a, Administraci&oacute;n de Empresas, Universidad de Chapultepec.</p>
+      <p  class=" col-text row-data" > &bull; Licenciatura, Ingenier&iacute;a Civil, ENEP-Acatl&aacute;n, Universidad Nacional Aut&oacute;noma de M&eacute;xico.</p>
+    </div>
+    <div class="col-lg-4">
+      <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Contacto</p>
+      <p class="col-text row-data"> E-mail: RSilvaC@iingen.unam.mx</p>
+      <p class="col-text row-data"> Tel. +52 (55) 56233600 x 3668 </p>
+    </div>
+  </div>
+  <!-- SEMBLANZA-->
+
       <p class="col-text row-data  d-none d-md-block" style="color: #0067A0; font-weight: 700; margin-top: 56px; margin-bottom: 28px;  ">Galer&iacute;a</p>
-  
       <section> <!-- IMAGE GALLERY -->
         <img src="img/convocatoria/caribe/FotoPersonalRodolfo_Silva.jpg" />
         <img src="img/convocatoria/caribe/caribe_galeria_1.jpg" />
@@ -291,6 +325,16 @@
   <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
   <script src="js/projectsGalleryLightbox.js"></script> <!--  IMAGE GALLERY-->
+    <!-- Inicio Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', 'G-PR893VGXNK');
+    </script>
+    <!-- Fin Google Analytics -->
   
   </body>
   

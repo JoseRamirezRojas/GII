@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="author" content="JoseRamirez" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/GII LOGO PORTAL.svg">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins:wght@400;700">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
@@ -20,17 +21,17 @@
 <!-- HEADER -->
 <nav class="navbar fixed-top navbar-expand-lg  bg-gradient">
 <div class="container-fluid">
-  <!-- different logos depending on device-->
-  <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
-    <img src="img/Logo Instituto Cuadrado BCO.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
-    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
-    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
-  </a>
-  <a class="navbar-brand" href="Inicio.aspx">
-    <img src="img/GII LOGO PORTAL BCO.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
-    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
-    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
-  </a> <!-- different logos depending on device-->
+    <!-- different size logos depending on device-->
+    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
+    </a>
+    <a class="navbar-brand" href="Inicio.aspx">
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
+    </a> <!-- different size logos depending on device-->
   <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon "></span>
   </button>
@@ -59,7 +60,7 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
           <hr class="line-dropdown">
-          <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>
+          <li><a class="dropdown-item" href="Video-directora.aspx">Video de la Directora</a></li>
         </ul>
       </li>
       <li class="nav-item sections">
@@ -104,16 +105,52 @@
 </div>
 <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px;">Resumen</p>
 <div class="row row-data" >
-<div class="col-lg-4 col-md-6 order-md-1">
-  <p class="col-text" style="color: #3A3A3A; line-height: 150%;">El objetivo general de este proyecto consiste en generar conocimiento aplicado sobre la sustentabilidad y resiliencia de comunidades costeras, por medio de una serie de estudios inter- y trans-disciplinarios (e.g., participaci&oacute;n ciudadana y de otros actores) asociados con desarrollos tecnol&oacute;gicos, dise&ntilde;os de prototipos, dise&ntilde;os de ordenamiento urbano costero, riesgo ambiental, agroecolog&iacute;a, ecoturismo, para lograr una mejor calidad ambiental del socio-ecosistema y mejor calidad de vida de la comunidad. Adem&aacute;s, promover&aacute; la participaci&oacute;n ciudadana de los pobladores, otros actores clave (e.g., gobierno municipal y estatal, sector privado) y miembros de la comunidad acad&eacute;mica en la procuraci&oacute;n del dise&ntilde;o e implementaci&oacute;n de las condiciones para una vida sostenible en esa localidad. Se escoge Sisal como sede porque es un n&uacute;cleo urbano peque&ntilde;o en franco desarrollo, nombrado recientemente Pueblo M&aacute;gico, pero con una presi&oacute;n fuerte del sector inmobiliario y tur&iacute;stico, y ah&iacute; se puede planear la atenci&oacute;n a los 17 ODS de Naciones Unidas. Esta es nuestra definici&oacute;n de ciudad inteligente.</p>
+  <div class="col-lg-4 col-md-6 order-md-1">
+    <p class="col-text" style="color: #3A3A3A; line-height: 150%;">El objetivo general de este proyecto consiste en generar conocimiento aplicado sobre la sustentabilidad y resiliencia de comunidades costeras, por medio de una serie de estudios inter- y trans-disciplinarios (e.g., participaci&oacute;n ciudadana y de otros actores) asociados con desarrollos tecnol&oacute;gicos, dise&ntilde;os de prototipos, dise&ntilde;os de ordenamiento urbano costero, riesgo ambiental, agroecolog&iacute;a, ecoturismo, para lograr una mejor calidad ambiental del socio-ecosistema y mejor calidad de vida de la comunidad. Adem&aacute;s, promover&aacute; la participaci&oacute;n ciudadana de los pobladores, otros actores clave (e.g., gobierno municipal y estatal, sector privado) y miembros de la comunidad acad&eacute;mica en la procuraci&oacute;n del dise&ntilde;o e implementaci&oacute;n de las condiciones para una vida sostenible en esa localidad. Se escoge Sisal como sede porque es un n&uacute;cleo urbano peque&ntilde;o en franco desarrollo, nombrado recientemente Pueblo M&aacute;gico, pero con una presi&oacute;n fuerte del sector inmobiliario y tur&iacute;stico, y ah&iacute; se puede planear la atenci&oacute;n a los 17 ODS de Naciones Unidas. Esta es nuestra definici&oacute;n de ciudad inteligente.</p>
+  </div>
+  <div class="col-lg-4 col-md-6 order-md-3 order-lg-2">
+    <p class="col-text" style="color: #3A3A3A; line-height: 150%;">Se cuenta ya con un diagn&oacute;stico preliminar de las necesidades de Sisal para lograr un desarrollo sostenible, con la participaci&oacute;n de los sectores gobierno, sociedad civil, prestadores de servicios, academia y profesionistas independientes. Con esa base se identificaron cuatro ejes: 1&rpar; Calidad del ambiente, 2&rpar; Riesgo, 3&rpar; Actividades econ&oacute;micas y 4&rpar; Bienestar, en los cuales se basa toda la propuesta. A su vez, est&aacute; conformada por 22 subpropuestas, 11 de las cuales provienen de cinco coordinaciones del Instituto de Ingenier&iacute;a, UNAM, 9 otras surgen de otras entidades de la UNAM, y 2 son miembros de organizaciones de la sociedad civil o particulares. Una subpropuesta del eje de Bienestar pretende identificar y promover sinergias y complementaciones entre los proyectos para (a) hacer m&aacute;s eficiente su ejecuci&oacute;n, pero sobre todo (b) para contribuir a la generaci&oacute;n de productos de divulgaci&oacute;n cient&iacute;fica que permitan la comunicaci&oacute;n del proyecto de una forma conjunta, y no como elementos aislados. Las 22 subpropuestas se agrupan en seis temas principales, aunque hay varias &aacute;reas  de traslape entre ellos:</p>
+  </div>
+  <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
+    <p class="col-text" style="color: #3A3A3A; line-height: 150%;"> infraestructura ecol&oacute;gica y sustentable, ciudad digital y conectada, energ&iacute;as limpias, renovables y provenientes de ecotecnolog&iacute;as, transporte sustentable e inteligente, salud p&uacute;blica, calidad de vida y educaci&oacute;n, y manejo sustentable del agua. En las zonas de sinergia entre temas se identifican oportunidades de investigaci&oacute;n interdisciplinaria y de frontera. En este proyecto se entiende que la comunicaci&oacute;n y apropiaci&oacute;n de la ciencia es un componente crucial para el desarrollo del pa&iacute;s. Las innovaciones cient&iacute;ficas y tecnol&oacute;gicas deben traducirse en oportunidades de desempe&ntilde;o profesional en la industria y el gobierno, como ocurre en pa&iacute;ses desarrollados. Adem&aacute;s, el presentar los avances de investigaciones a la sociedad que est&aacute; participando en su generaci&oacute;n, debe ser un parteaguas positivo en el apoyo y desarrollo exitoso de esos proyectos. Se espera que este proyecto de desarrollo sostenible de comunidades costeras pueda servir de ejemplo a nivel regional y nacional.</p>
+  </div> 
 </div>
-<div class="col-lg-4 col-md-6 order-md-3 order-lg-2">
-  <p class="col-text" style="color: #3A3A3A; line-height: 150%;">Se cuenta ya con un diagn&oacute;stico preliminar de las necesidades de Sisal para lograr un desarrollo sostenible, con la participaci&oacute;n de los sectores gobierno, sociedad civil, prestadores de servicios, academia y profesionistas independientes. Con esa base se identificaron cuatro ejes: 1&rpar; Calidad del ambiente, 2&rpar; Riesgo, 3&rpar; Actividades econ&oacute;micas y 4&rpar; Bienestar, en los cuales se basa toda la propuesta. A su vez, est&aacute; conformada por 22 subpropuestas, 11 de las cuales provienen de cinco coordinaciones del Instituto de Ingenier&iacute;a, UNAM, 9 otras surgen de otras entidades de la UNAM, y 2 son miembros de organizaciones de la sociedad civil o particulares. Una subpropuesta del eje de Bienestar pretende identificar y promover sinergias y complementaciones entre los proyectos para (a) hacer m&aacute;s eficiente su ejecuci&oacute;n, pero sobre todo (b) para contribuir a la generaci&oacute;n de productos de divulgaci&oacute;n cient&iacute;fica que permitan la comunicaci&oacute;n del proyecto de una forma conjunta, y no como elementos aislados. Las 22 subpropuestas se agrupan en seis temas principales, aunque hay varias &aacute;reas  de traslape entre ellos:</p>
+
+<!-- SEMBLANZA-->
+<div class="row">
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Dr. Jos&eacute; Luis Fern&aacute;ndez Zayas</p>
+    <img  class="row-data" src="img/convocatoria/sisal/20230421 Foto JLFZ .jpg" style="width: 85%" />
+  </div>
+  <div class="col-lg-8">
+    <p  class=" col-text row-data" style="font-weight: 700; color: #0067A0; margin-bottom: 8px; margin-top: 66px; ">Semblanza</p>
+    <br>
+    <p  class=" col-text row-data" >Es ingeniero mec&aacute;nico electricista de la Facultad de Ingenier&iacute;a de la UNAM y doctor en ingenier&iacute;a por la Universidad de Bristol, Inglaterra. Ha publicado unos 650 art&iacute;culos y ponencias, y m&aacute;s de treinta libros. Ha dirigido m&aacute;s de cien tesis de licenciatura y posgrado ya examinadas. </p>
+    <br>
+    <p  class=" col-text row-data" >Dise&ntilde;&oacute; y construy&oacute; equipos industriales en una empresa privada, mont&oacute; una f&aacute;brica de equipos el&eacute;ctricos y luego un despacho de dise&ntilde;o mec&aacute;nico. Ha sido socio y consultor de una docena de empresas industriales privadas. </p>
+    <br>
+    <p  class=" col-text row-data" > Ha presidido diversas asociaciones, consorcios y academias, y dirigi&oacute; el Instituto de Ingenier&iacute;a de la UNAM, el Sistema Nacional de Investigadores del CONACYT y el Instituto Nacional de Electricidad y Energ&iacute;as Limpias. Es Acad&eacute;mico de Honor de la Academia de Ingenier&iacute;a de M&eacute;xico y profesor investigador de la UNAM de tiempo completo desde 1975.</p>
+  </div>
 </div>
-<div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
-  <p class="col-text" style="color: #3A3A3A; line-height: 150%;"> infraestructura ecol&oacute;gica y sustentable, ciudad digital y conectada, energ&iacute;as limpias, renovables y provenientes de ecotecnolog&iacute;as, transporte sustentable e inteligente, salud p&uacute;blica, calidad de vida y educaci&oacute;n, y manejo sustentable del agua. En las zonas de sinergia entre temas se identifican oportunidades de investigaci&oacute;n interdisciplinaria y de frontera. En este proyecto se entiende que la comunicaci&oacute;n y apropiaci&oacute;n de la ciencia es un componente crucial para el desarrollo del pa&iacute;s. Las innovaciones cient&iacute;ficas y tecnol&oacute;gicas deben traducirse en oportunidades de desempe&ntilde;o profesional en la industria y el gobierno, como ocurre en pa&iacute;ses desarrollados. Adem&aacute;s, el presentar los avances de investigaciones a la sociedad que est&aacute; participando en su generaci&oacute;n, debe ser un parteaguas positivo en el apoyo y desarrollo exitoso de esos proyectos. Se espera que este proyecto de desarrollo sostenible de comunidades costeras pueda servir de ejemplo a nivel regional y nacional.</p>
-</div> 
+<div class="row">
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; margin-bottom: 16px;">Proyecto GII</p>
+    <p  class=" col-text row-data" > Sisal, Yucat&aacute;n: hacia una ciudad sostenible y resiliente (Eje estrat&eacute;gico de investigaci&oacute;n: Ciudades inteligentes).</p>
+  </div>
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; margin-bottom: 16px;">Credenciales</p>
+    <p  class=" col-text row-data" >  &bull; Doctor en Ingenier&iacute;a de Flujos Electro-hidrodin&aacute;micos, Universidad de Bristol, Inglaterra. </p>
+    <p  class=" col-text row-data" >  &bull; Maestr&iacute;a: Fluidos y T&eacute;rmica, Universidad de Bristol, Inglaterra.</p>
+    <p  class=" col-text row-data" > &bull; Licenciatura: Ingenier&iacute;a Mec&aacute;nica y El&eacute;ctrica, Facultad de Ingenier&iacute;a, UNAM, M&eacute;xico, M&eacute;xico </p>
+  </div>
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; margin-bottom: 16px;">Contacto</p>
+    <p class="col-text row-data"> E-mail: JFernandezZ@iingen.unam.mx </p>
+    <p class="col-text row-data"> Tel: +52 (55) 56233600 x 3637</p>
+  </div>
 </div>
+<!-- SEMBLANZA-->
+
 <p class="col-text row-data d-none d-md-block" style="color: #027B00; font-weight: 700; margin-top: 32px; margin-bottom: 28px; ">Galer&iacute;a</p>
 <section> <!-- IMAGE GALLERY -->
 <img src="img/convocatoria/sisal/20230421 Foto JLFZ .jpg" />
@@ -137,7 +174,6 @@
 <div class="row row-data " style="margin-top: 40px;" > 
 <div class="col-lg-4 col-md-6 ">
   <p  class="col-text" style="color: #027B00; font-weight: 700; margin-bottom: 8px; ">Colaboradores (Academia)</p>
-  <p class="col-text">Jos&eacute; Luis Fern&aacute;ndez Zayas, Instituto de Ingenier&iacute;a, UNAM (CU). </p>
   <p class="col-text">Javier Eduardo Aguill&oacute;n Mart&iacute;nez, Instituto de Ingenier&iacute;a, UNAM (CU). </p>
   <p class="col-text">Sonia Rosa Brice&ntilde;o Viloria, Instituto de Ingenier&iacute;a, UNAM (CU).</p>
   <p class="col-text">Germ&aacute;n Jorge Carmona Paredes, Instituto de Ingenier&iacute;a, UNAM (LIPC). </p>
@@ -349,5 +385,17 @@
 <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 <script src="js/projectsGalleryLightbox.js"></script> <!--  IMAGE GALLERY-->
+
+  <!-- Inicio Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PR893VGXNK');
+  </script>
+  <!-- Fin Google Analytics -->
+
 </body>
 </html>

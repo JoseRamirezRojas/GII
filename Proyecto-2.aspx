@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="author" content="JoseRamirez" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/GII LOGO PORTAL.svg">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins:wght@400;700">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
@@ -20,17 +21,17 @@
 <!-- HEADER -->
 <nav class="navbar fixed-top navbar-expand-lg  bg-gradient">
 <div class="container-fluid">
-  <!-- different logos depending on device-->
-  <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
-    <img src="img/Logo Instituto Cuadrado BCO.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
-    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
-    <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
-  </a>
-  <a class="navbar-brand" href="Inicio.aspx">
-    <img src="img/GII LOGO PORTAL BCO.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
-    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
-    <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
-  </a> <!-- different logos depending on device-->
+    <!-- different size logos depending on device-->
+    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.aspx">
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 80px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 48px; margin-top: -10px;"> 
+      <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
+    </a>
+    <a class="navbar-brand" href="Inicio.aspx">
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="44" height="44" class="d-none d-lg-block align-text-top"  style="margin-left: -8px; margin-top: -10px;">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="58" height="44" class="d-none d-md-block d-lg-none align-top "  style="margin-top: -8px; margin-left: -440%; ">  
+      <img src="img/GII LOGO PORTAL.svg" alt="GII" width="48" height="44" class="d-block d-md-none d-lg-none align-top "  style="margin-top: -8px; margin-left: -175%; ">  
+    </a> <!-- different size logos depending on device-->
   <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon "></span>
   </button>
@@ -59,7 +60,7 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <li><a class="dropdown-item" href="Comite.aspx">Comit&eacute; organizador</a></li>
           <hr class="line-dropdown">
-          <li><a class="dropdown-item" href="Video-directora.aspx">Video de la directora</a></li>
+          <li><a class="dropdown-item" href="Video-directora.aspx">Video de la Directora</a></li>
         </ul>
       </li>
       <li class="nav-item sections">
@@ -107,17 +108,51 @@
 <p class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px;">Resumen</p>
 <div class="row row-data" >
 <div class="col-lg-4 col-md-6 order-md-1 ">
-  <p class="col-text" style="color: #3A3A3A;">Atendiendo la convocatoria: Grupos Interdisciplinarios de Investigaci&oacute;n del Instituto de Ingenier&iacute;a, UNAM (GII-IIUNAM) y en concordancia con los Ejes Tem&aacute;ticos Estrat&eacute;gicos de Investigaci&oacute;n (ETEI) Ciudades inteligentes y Nexo Agua-Energ&iacute;a-Ambiente-Seguridad alimentaria, del Programa Especial de Innovaci&oacute;n Estrat&eacute;gica para el Desarrollo Nacional (PROINDEN) de la UNAM, se conform&oacute; un Grupo Interdisciplinario de Investigaci&oacute;n (GII). El proyecto del GII tiene por objetivo intensificar los procesos para la obtenci&oacute;n de biocompuestos a partir de agua residual, bajo el concepto de econom&iacute;a circular. Aborda los temas de investigaci&oacute;n: Descarbonizaci&oacute;n, ambiente y energ&iacute;a (Tema 1); Seguridad alimentaria y energ&iacute;a (Tema 2); y Energ&iacute;a y gesti&oacute;n integral del agua, seguridad h&iacute;drica y derecho al agua (Tema 4). Para ello se cuenta con la participaci&oacute;n de un grupo interdisciplinario de destacados acad&eacute;micos expertos en: Tratamiento y reuso de agua, simulaci&oacute;n y control de procesos, dise&ntilde;o de plantas y transferencia de tecnolog&iacute;a, an&aacute;lisis tecno-econ&oacute;mico y ambiental de los procesos, energ&iacute;as renovables, bio-refiner&iacute;a, energ&iacute;a y combusti&oacute;n, fen&oacute;menos de superficie, caracterizaci&oacute;n y expresi&oacute;n g&eacute;nica de cepas, y manejo de recursos h&iacute;dricos. Las entidades que conforman este GII son: el Instituto de Ingenier&iacute;a, Instituto de Energ&iacute;as Renovables, Facultad de Ciencias y la Facultad de Qu&iacute;mica de la UNAM. Tambi&eacute;n se cuenta con la participaci&oacute;n de investigadores extranjeros de la School of Engineering, Newcastle University, del Reino Unido.</p>
+  <p class="col-text" style="color: #3A3A3A;">Atendiendo la convocatoria: Grupos Interdisciplinarios de Investigaci&oacute;n del Instituto de Ingenier&iacute;a, UNAM (GII-IIUNAM) y en concordancia con los Ejes Tem&aacute;ticos Estrat&eacute;gicos de Investigaci&oacute;n (ETEI) Ciudades inteligentes y Nexo Agua-Energ&iacute;a-Ambiente-Seguridad alimentaria, del Programa Especial de Innovaci&oacute;n Estrat&eacute;gica para el Desarrollo Nacional (PROINDEN) de la UNAM, se conform&oacute; un Grupo Interdisciplinario de Investigaci&oacute;n (GII). El proyecto del GII tiene por objetivo intensificar los procesos para la obtenci&oacute;n de biocompuestos a partir de agua residual, bajo el concepto de econom&iacute;a circular. Aborda los temas de investigaci&oacute;n: Descarbonizaci&oacute;n, ambiente y energ&iacute;a (Tema 1); Seguridad alimentaria y energ&iacute;a (Tema 2); y Energ&iacute;a y gesti&oacute;n integral del agua (Tema 3), seguridad h&iacute;drica y derecho al agua (Tema 4). Para ello se cuenta con la participaci&oacute;n de un grupo interdisciplinario de destacados acad&eacute;micos expertos en: Tratamiento y reuso de agua, simulaci&oacute;n y control de procesos, dise&ntilde;o de plantas y transferencia de tecnolog&iacute;a, an&aacute;lisis tecno-econ&oacute;mico y ambiental de los procesos, energ&iacute;as renovables, bio-refiner&iacute;a, energ&iacute;a y combusti&oacute;n, fen&oacute;menos de superficie, caracterizaci&oacute;n y expresi&oacute;n g&eacute;nica de cepas, y manejo de recursos h&iacute;dricos. Las entidades que conforman este GII son: el Instituto de Ingenier&iacute;a, Instituto de Energ&iacute;as Renovables, Facultad de Ciencias y la Facultad de Qu&iacute;mica de la UNAM. Tambi&eacute;n se cuenta con la participaci&oacute;n de investigadores extranjeros de la School of Engineering, Newcastle University, del Reino Unido.</p>
 </div>
 <div class="col-lg-4 col-md-6 order-md-3 order-lg-2">
-  <p class="col-text" style="color: #3A3A3A;">El proyecto tiene entre otras metas, el proveer una tecnolog&iacute;a sostenible para el tratamiento de agua con producci&oacute;n de biomasa de microalgas, con criterios t&eacute;cnico-econ&oacute;micos de dise&ntilde;o, factible de implementarse en la industria, el gobierno o en una comunidad. Potenciar el aprovechamiento de biomasa microalgal como fuente de energ&iacute;a renovable (biocombustibles), biopl&aacute;sticos y biofertilizantes, a partir de agua residual. Evaluar la factibilidad del uso de biocombustibles generados en motores de combusti&oacute;n interna. Impulsar el aprovechamiento de la biomasa residual como biofertilizante y mejorador de suelo. Desarrollar una tecnolog&iacute;a de secado solar que sea accesible para peque&ntilde;as plantas descentralizadas para potenciar el aprovechamiento de la biomasa microalgal. Establecer los usos potenciales del agua residual tratada de acuerdo a la normatividad vigente. Reducir los impactos ambientales, huella terrestre, h&iacute;drica, y de carbono, proponiendo un sistema de valorizaci&oacute;n de las aguas residuales mediante el tratamiento con microalgas y aprovechamiento de la biomasa. El planteamiento de este proyecto se basa en investigaciones previas realizadas por el grupo “Tecnolog&iacute;as Innovadoras en Ingenier&iacute;a Ambiental” del Instituto de Ingenier&iacute;a de la UNAM y la Escuela de Ingenier&iacute;a de la Universidad de Newcastle, UK. En este contexto, la propia Organizaci&oacute;n de las Naciones Unidas ha reconocido que las aguas residuales son un recurso no aprovechado y que es una fuente explotable de agua, energ&iacute;a, nutrientes y subproductos valorizables.</p>
+  <p class="col-text" style="color: #3A3A3A;">El proyecto tiene entre otras metas, el proveer una tecnolog&iacute;a sostenible para el tratamiento de agua con producci&oacute;n de biomasa de microalgas, con criterios t&eacute;cnico-econ&oacute;micos de dise&ntilde;o, factible de implementarse en la industria, el gobierno o en una comunidad. Potenciar el aprovechamiento de biomasa microalgal como fuente de energ&iacute;a renovable (biocombustibles), biopl&aacute;sticos y biofertilizantes, a partir de agua residual. Evaluar la factibilidad del uso de biocombustibles generados en motores de combusti&oacute;n interna. Impulsar el aprovechamiento de la biomasa residual como biofertilizante y mejorador de suelo. Desarrollar una tecnolog&iacute;a de secado solar que sea accesible para peque&ntilde;as plantas descentralizadas para potenciar el aprovechamiento de la biomasa microalgal. Establecer los usos potenciales del agua residual tratada de acuerdo a la normatividad vigente. Reducir los impactos ambientales, huella terrestre, h&iacute;drica, y de carbono, proponiendo un sistema de valorizaci&oacute;n de las aguas residuales mediante el tratamiento con microalgas y aprovechamiento de la biomasa. El planteamiento de este proyecto se basa en investigaciones previas realizadas por el grupo  <q>Tecnolog&iacute;as Innovadoras en Ingenier&iacute;a Ambiental</q>  del Instituto de Ingenier&iacute;a de la UNAM y la Escuela de Ingenier&iacute;a de la Universidad de Newcastle, UK. En este contexto, la propia Organizaci&oacute;n de las Naciones Unidas ha reconocido que las aguas residuales son un recurso no aprovechado y que es una fuente explotable de agua, energ&iacute;a, nutrientes y subproductos valorizables.</p>
 </div>
 <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
-  <p class="col-text" style="color: #3A3A3A;"> Una forma de mejorar el tratamiento y la viabilidad econ&oacute;mica de los procesos es adoptando nuevas tecnolog&iacute;as que generen ingresos procedentes de las aguas residuales. Las investigaciones realizadas se han enfocado en desarrollar un sistema de tratamiento terciario de aguas residuales. El principio de la tecnología es el uso de organismos fotosint&eacute;ticos como las microalgas cuya biomasa puede ser valorizada para obtener productos de valor antes mencionados. El sistema se complementa con una tecnolog&iacute;a de vanguardia para la recuperaci&oacute;n (cosecha) de la biomasa producida denominada ozonoflotaci&oacute;n, la cual, adem&aacute;s, es un proceso de desinfecci&oacute;n del agua residual tratada. Para tal efecto se dise&ntilde;&oacute; y construy&oacute; un prototipo a escala semipiloto denominado Atzintli en colaboraci&oacute;n con la Universidad de Newcastle, que consiste en un reactor de alta tasa con un volumen de trabajo de 1.2 m3, un sedimentador de 1m3 y una columna de flotaci&oacute;n con ozono-aire de 12L, que operan por lotes. La tecnología desarrollada y aplicada en el prototipo, reduce las emisiones de carbono y la energía necesaria para limpiar el agua, produciendo microalgas como biomasa. El proyecto se dirige a una nueva forma de gesti&oacute;n de las aguas residuales, a trav&eacute;s de la intensificaci&oacute;n de los procesos desarrollados para el tratamiento de agua residual, productividad de biomasa y obtenci&oacute;n de biocompuestos.</p>
+  <p class="col-text" style="color: #3A3A3A;"> Una forma de mejorar el tratamiento y la viabilidad econ&oacute;mica de los procesos es adoptando nuevas tecnolog&iacute;as que generen ingresos procedentes de las aguas residuales. Las investigaciones realizadas se han enfocado en desarrollar un sistema de tratamiento terciario de aguas residuales. El principio de la tecnolog&iacute;a es el uso de organismos fotosint&eacute;ticos como las microalgas cuya biomasa puede ser valorizada para obtener productos de valor antes mencionados. El sistema se complementa con una tecnolog&iacute;a de vanguardia para la recuperaci&oacute;n (cosecha) de la biomasa producida denominada ozonoflotaci&oacute;n, la cual, adem&aacute;s, es un proceso de desinfecci&oacute;n del agua residual tratada. Para tal efecto se dise&ntilde;&oacute; y construy&oacute; un prototipo a escala semipiloto denominado Atzintli en colaboraci&oacute;n con la Universidad de Newcastle, que consiste en un reactor de alta tasa con un volumen de trabajo de 1.2 m<sup>3</sup> , un sedimentador de 1m<sup>3</sup> y una columna de flotaci&oacute;n con ozono-aire de 12L, que operan por lotes. La tecnolog&iacute;a desarrollada y aplicada en el prototipo, reduce las emisiones de carbono y la energ&iacute;a necesaria para limpiar el agua, produciendo microalgas como biomasa. El proyecto se dirige a una nueva forma de gesti&oacute;n de las aguas residuales, a trav&eacute;s de la intensificaci&oacute;n de los procesos desarrollados para el tratamiento de agua residual, productividad de biomasa y obtenci&oacute;n de biocompuestos.</p>
 </div> 
 </div>
-<p class="col-text row-data d-none d-md-block" style="color: #0067A0; font-weight: 700; margin-top: 56px; margin-bottom: 28px">Galer&iacute;a</p>
+<!-- SEMBLANZA-->
+<div class="row">
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #0067A0; margin-top: 32px; margin-bottom: 16px;">Dra. Mar&iacute;a Teresa Orta Ledesma </p>
+    <img  class="row-data" src="img/convocatoria/biocompuestos/FotoPersonal-MOrtaL.jpg" style="width: 85%" />
+  </div>
+  <div class="col-lg-8">
+    <p  class=" col-text row-data" style="font-weight: 700; color: #027B00; margin-bottom: 8px; margin-top: 66px; ">Semblanza</p>
+    <br>
+    <p  class=" col-text row-data" >Investigadora del Instituto de Ingenier&iacute;a de la Universidad Nacional Aut&oacute;noma de M&eacute;xico. Es Doctora en Ciencias Qu&iacute;micas por la Universidad de Rennes, Francia.</p>
+    <br>
+    <p  class=" col-text row-data" >Tiene cerca de 100 informes de proyectos, m&aacute;s de la mitad de los cuales son patrocinados y de circulaci&oacute;n restringida. Es autora de m&aacute;s de 200 publicaciones; 64 de estas publicaciones son art&iacute;culos arbitrados. Junto con su grupo de investigaci&oacute;n posee 7 patentes, 2 de ellas han sido transferidas. Ha participado en 5 normas mexicanas para el agua y cuenta con 18 desarrollos tecnol&oacute;gicos.</p>
+    <br>
+    <p  class=" col-text row-data" > La Doctora Orta lleva muchos a&ntilde;os comprometida con la sostenibilidad, especialmente con la calidad, tratamiento y uso adecuado del agua potable. Ha dado conferencias plenarias en congresos internacionales de alto nivel y ha formado parte de comit&eacute;s cient&iacute;ficos de organizaciones internacionales. Cre&oacute; dos laboratorios de innovaci&oacute;n, uno en Nuevo Laredo y otro en el IMP. Actualmente es Nivel 2 del Sistema Nacional de Investigadores. </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Proyecto GII</p>
+    <p  class=" col-text row-data" > Intensificaci&oacute;n de procesos para la obtenci&oacute;n de biocompuestos a partir de aguas residuales (Eje estrat&eacute;gico de investigaci&oacute;n: Nexo Agua-Energ&iacute;a-Medio Ambiente-Seguridad Alimentaria).</p>
+  </div>
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Credenciales</p>
+    <p  class=" col-text row-data" > &bull; Doctorado en Ciencias Qu&iacute;micas, Ecole Nationale de France, Universidad de Rennes I, Francia.  </p>
+    <p  class=" col-text row-data" > &bull; Maestr&iacute;a en Ingenier&iacute;a Sanitaria, Divisi&oacute;n de Estudios de Posgrado, Facultad de Ingenier&iacute;a, Estado de M&eacute;xico.</p>
+    <p  class=" col-text row-data" > &bull; Licenciatura en Ingenier&iacute;a Qu&iacute;mica, Facultad de Qu&iacute;mica, Universidad Nacional Aut&oacute;noma de M&eacute;xico.</p>
+  </div>
+  <div class="col-lg-4">
+    <p  class="col-text row-data" style="font-weight: 700; color: #027B00; margin-top: 32px; margin-bottom: 16px;">Contacto</p>
+    <p class="col-text row-data"> E-mail: MOrtaL@iingen.unam.mx </p>
+    <p class="col-text row-data"> Tel: +52 (55) 56233600 x 3672 </p>
+  </div>
+</div>
+<!-- SEMBLANZA-->
 
+<p class="col-text row-data d-none d-md-block" style="color: #0067A0; font-weight: 700; margin-top: 56px; margin-bottom: 28px">Galer&iacute;a</p>
 <section> <!-- IMAGE GALLERY -->
 <img src="img/convocatoria/biocompuestos/FotoPersonal-MOrtaL.jpg" />
 <img src="img/convocatoria/biocompuestos/6-ProyectoGII-MTOrta.png" />
@@ -150,11 +185,30 @@
     <p class="col-text">Estudiante Lic. Laura Citlalli Manrique S&aacute;nchez. </p>
     <p class="col-text">Estudiante Lic. Mar&iacute;a Jos&eacute; Romero Pineda.</p>
     <p class="col-text">Estudiante Lic. Ana Cristina Flores Mart&iacute;nez.</p>
-    <p class="col-text">Dra. Blanca Jim&eacute;nez Cisneros Mtra. Catalina.</p>
-    <p class="col-text">Maya Rend&oacute;n.</p>
+    <p class="col-text">Estudiante Lic. Jatziri L&oacute;pez Reyes.</p>
+    <p class="col-text">Estudiante Lic. Ram&oacute;n Alberto Pichardo Aquino </p>
+    <p class="col-text">Estudiante Lic. Edgar Eduardo Cedillo Cornejo.</p>
+    <p class="col-text">Estudiante Lic. Oscar Santiago Garcia Franco.</p>
+    <p class="col-text">Estudiante Lic. Santos Daniel Martinez Hernandez.</p>
+    <p class="col-text">Estudiante Lic. Sandoval Castro Misael Natanael.</p>
+    <p class="col-text">Estudiante Lic. Ana Elizabeth G&oacute;mez Herrera.</p>
+    <p class="col-text">Estudiante Lic. Emir Eduardo Mel&eacute;ndez Hern&aacute;ndez.</p>
+    <p class="col-text">Estudiante Lic. Miriam Guti&eacute;rrez Rodriguez. </p>
+    <p class="col-text">Estudiante Lic. Dana Lorena V&aacute;zquez de los Reyes. </p>
+    <p class="col-text">Estudiante Lic.Luz Jazm&iacute;n Herrera Vel&aacute;zquez. </p>
   </div> 
   <div class="col-lg-4 col-md-6">
     <p></p> 
+    <p class="col-text">Estudiante Lic.Mart &iacute;n Samuel Sarmiento Su&aacute;rez </p>
+    <p class="col-text">Estudiante Mtr&iacute;a. Luis &Aacute;ngel Mendoza Valle  </p>
+    <p class="col-text">Estudiante Doc. Rub&eacute;n Carlos Esquivel Hern&aacute;ndez   </p>
+    <p class="col-text">Estudiante Doc. Copca Maya Eduardo Omar  </p>
+    <p class="col-text">Estudiante Doc. Sebasti&aacute;n Hern&aacute;ndez Caire  </p>
+    <p class="col-text">Estudiante Doc. Misael Ram&iacute;rez Lozano  </p>
+    <p class="col-text">Estudiante Doc. Nicol&aacute;s Iv&aacute;n Rom&aacute;n Rold&aacute;n  </p>
+    <p class="col-text">Estudiante Doc. Laura Gabriela Vargas Estrada  </p>
+    <p class="col-text">Dra. Blanca Jim&eacute;nez Cisneros Mtra. Catalina.</p>
+    <p class="col-text">Mtra. Maya Rend&oacute;n.</p>
     <p class="col-text">Dr. Sim&oacute;n Gonz&aacute;lez Mart&iacute;nez.  </p>
     <p class="col-text">Dr. Armando Gonz&aacute;lez S&aacute;nchez.</p>
     <p class="col-text">Dr. Juan Manuel Morgan Sagastume.  </p>
@@ -167,10 +221,18 @@
     <p class="col-text">Dra. Dulce Mar&iacute;a Arias Lizarraga -- Como representante del grupo del Instituto de Energ&iacute;as Renovables. </p>
     <p class="col-text">Dra. Claudia Andrea Segal Kischinevzky</p>
     <p class="col-text">Dr. James Enrique Gonz&aacute;lez Flores </p>
-    <p class="col-text">Dra. Sharon Belinda Vel&aacute;squez Orta </p>
-    
+    <p class="col-text">Q. Viviana Escobar Sánchez</p>
   </div>
-  <div class="col">
+  <div class="col-lg-4 col-md-6">
+    <p></p>
+    <p class="col-text">Bi&oacute;l. Miguel &Aacute;ngel Rosas Paz</p>
+    <p class="col-text">Bi&oacute;l. Diana Villarreal Huerta</p>
+    <p class="col-text">Dra. Anabel L&oacute;pez Ortiz </p>
+    <p class="col-text">Dr. Patrick Ugochukwu Okoye</p>
+    <p class="col-text">Dr. Octavio Garc&iacute;a Valladares</p>
+    <p class="col-text">Dr. Hugo Olvera Vargas</p>
+    <p class="col-text">Dra. Sharon Belinda Vel&aacute;squez Orta </p>
+    <br>
     <p class="col-text" style="color: #0067A0; font-weight: 700;  margin-bottom: 8px;">Instituciones externas al IIUNAM</p>
     <p><a class="entity-link" href="https://www.fciencias.unam.mx" >Facultad de Ciencias UNAM. &raquo;</a></p>
     <p><a class="entity-link" href="https://quimica.unam.mx" >Facultad de Qu&iacute;mica UNAM. &raquo;</a></p>
@@ -265,6 +327,18 @@
 <script src="https://kit.fontawesome.com/b14dffd4ee.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 <script src="js/projectsGalleryLightbox.js"></script> <!--  IMAGE GALLERY-->
+
+  <!-- Inicio Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR893VGXNK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PR893VGXNK');
+  </script>
+  <!-- Fin Google Analytics -->
+
 </body>
 
 </html>
