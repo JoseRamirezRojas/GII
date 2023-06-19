@@ -14,10 +14,11 @@
 
 .navbar-toggler-icon {
     background-image: url(../img/menu.png);
+    margin-top: 9px;
 }
 
 li{
-    margin-right: 40px;
+    margin-right: 28px;
 }
 
 .navbar .nav-item > .nav-link.active  {
@@ -361,11 +362,6 @@ width: 30%;
 }
 
 @media (hover:hover){
-    .navbar .sections:hover{
-        text-decoration: underline;
-        text-decoration-color: #fff;
-        text-decoration-thickness: 3px;
-    }
     
     #convocatoria:hover>.dropdown-menu{
         display: block;
