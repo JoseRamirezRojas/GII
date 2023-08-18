@@ -3,7 +3,7 @@
 <html lang="es" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  
 <head>
-  <title>GII</title>
+  <title>Grupos Interdisciplinarios de Investigaci&oacute;n</title>
   <meta charset="utf-8">
   <meta name="author" content="JoseRamirez" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
   <nav class="navbar fixed-top navbar-expand-lg  bg-gradient">
     <div class="container-fluid">
     <!-- different logos depending on device-->
-    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.html">
+    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/">
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 45px; margin-top: -10px;"> 
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 44px; margin-top: -10px;"> 
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  

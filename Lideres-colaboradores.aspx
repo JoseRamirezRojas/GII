@@ -2,24 +2,24 @@
 <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <html lang="es" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  <head>
-    <title>GII</title>
-    <meta charset="utf-8">
-    <meta name="author" content="JoseRamirez" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/GII LOGO PORTAL.svg">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins:wght@400;700">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
-  
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/lideres-colaboradores.css">
+  <title>Grupos Interdisciplinarios de Investigaci&oacute;n</title>
+  <meta charset="utf-8">
+  <meta name="author" content="JoseRamirez" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/GII LOGO PORTAL.svg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins:wght@400;700">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/lideres-colaboradores.css">
   </head>
 <body>
   <!-- HEADER -->
   <nav class="navbar fixed-top navbar-expand-lg bg-gradient ">
     <div class="container-fluid">
     <!-- different logos depending on device-->
-    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/Paginas/Splash/Default.html">
+    <a class="navbar-brand" href="http://www.iingen.unam.mx/es-mx/">
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="44" height="44" class="d-none d-lg-block align-text-top" style="margin-left: 45px; margin-top: -10px;"> 
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="40" height="40" class="d-none d-md-block d-lg-none align-top" style="margin-left: 44px; margin-top: -10px;"> 
       <img src="img/Logo Instituto Cuadrado.svg" alt="IINGEN" width="36" height="36" class="d-block d-md-none d-lg-none align-top "  style="margin-left: 16px; margin-top: -10px;">  
@@ -83,7 +83,7 @@
     <div class="col-md-6 col-lg-4">
       <p class="col-text">Jos&eacute; Luis Fern&aacute;ndez Zayas, Instituto de Ingenier&iacute;a, UNAM (CU). </p>
       <p class="col-text">Javier Eduardo Aguill&oacute;n Mart&iacute;nez, Instituto de Ingenier&iacute;a, UNAM (CU). </p>
-      <p class="col-text">Sonia Rosa Briceño Viloria, Instituto de Ingenier&iacute;a, UNAM (CU).</p>
+      <p class="col-text">Sonia Rosa Brice&ntilde;o Viloria, Instituto de Ingenier&iacute;a, UNAM (CU).</p>
       <p class="col-text">Germ&aacute;n Jorge Carmona Paredes, Instituto de Ingenier&iacute;a, UNAM (LIPC). </p>
       <p class="col-text">Bernardo Figueroa Espinoza, Instituto de Ingenier&iacute;a, UNAM (LIPC).</p>
       <p class="col-text">Gemma Louise Franklin, Instituto de Ingenier&iacute;a, UNAM (LIPC-C&aacute;tedra CONACYT).</p>
@@ -113,7 +113,7 @@
       <p class="col-text">Laura Elena Vidal Hern&aacute;ndez, Facultad de Ciencias, UNAM (UMDI-Sisal). </p>
       <p class="col-text">Diana de Yta Castillo, Facultad de Ciencias, UNAM (UMDI-Sisal-CONACYT).</p>
       <p class="col-text">Flor Arcega Cabrera, Facultad de Qu&iacute;mica, UNAM (Unidad de Qu&iacute;mica Sisal UQS).</p>
-      <p class="col-text">Elsa Noreña Barroso, Facultad de Qu&iacute;mica, UNAM (Unidad de Qu&iacute;mica Sisal UQS).</p>
+      <p class="col-text">Elsa Nore&ntilde;a Barroso, Facultad de Qu&iacute;mica, UNAM (Unidad de Qu&iacute;mica Sisal UQS).</p>
       <p class="col-text">Gabriela Rodriguez Fuentes, Facultad de Qu&iacute;mica, UNAM (Unidad de Qu&iacute;mica Sisal UQS).</p>
       <p class="col-text">Bernardo Hern&aacute;ndez M&aacute;rquez Guevara, Planta de Carbonizaci&oacute;n Hidrotermal CDMX.</p>
       <p class="col-text">Marisol del Carmen Ordaz Tamayo, Universidad Aut&oacute;noma de Yucat&aacute;n.</p>
@@ -123,14 +123,14 @@
     <div class="col-md-6 col-lg-4">
       <p class="col-text" style="color: #474747; font-weight: 700; margin-top: 56px; margin-bottom: 8px;" >Colaboradores (Gobierno)</p>
       <p class="col-text">Virgilio Ren&eacute; G&oacute;ngora Echever&iacute;a, Secretar&iacute;a de Desarrollo Sustentable, Yucat&aacute;n.</p>
-      <p class="col-text">Gerardo Hern&aacute;ndez Peñaloza, Instituto de Movilidad y Desarrollo Urbano Territorial IMDUT.</p>
+      <p class="col-text">Gerardo Hern&aacute;ndez Pe&ntilde;aloza, Instituto de Movilidad y Desarrollo Urbano Territorial IMDUT.</p>
       <p class="col-text">Luis L&aacute;zaro Jim&eacute;nez Yan, Secretario Municipal de medio ambiente.</p>
       <p class="col-text">Jorge A. Lerma Nava, Secretaria de Fomento Tur&iacute;stico.</p>
-      <p class="col-text">Edgar Ren&eacute; Ram&iacute;rez N&uacute;ñez, Secretar&iacute;a de Pesca y Acuacultura Sustentables de Yucat&aacute;n.</p>
+      <p class="col-text">Edgar Ren&eacute; Ram&iacute;rez N&uacute;&ntilde;ez, Secretar&iacute;a de Pesca y Acuacultura Sustentables de Yucat&aacute;n.</p>
     </div>
     <div class="col-md-6 col-lg-4">
       <p  class="col-text" style="color: #474747; font-weight: 700; margin-top: 56px; margin-bottom: 8px;">Colaboradores (Sociedad Civil)</p>
-      <p class="col-text">Mar&iacute;a Teresa Andueza Briceño, Particular.</p>
+      <p class="col-text">Mar&iacute;a Teresa Andueza Brice&ntilde;o, Particular.</p>
       <p class="col-text">Susana Arizmendi Carrillo, Colectivo Garra Balam.</p>
       <p class="col-text">Gabriela Abigail Cabral Ortega, Xook cuxtal meyaj.</p>
       <p class="col-text">Mayra Alejandra Canul Cuxim, Fundaci&oacute;n Legorreta Hern&aacute;ndez A.C.</p>
@@ -173,7 +173,7 @@
   <div class="row"> 
     <div class="col-md-6 col-lg-4">
       <p class="col-text">Dr. Ignacio Monje Ram&iacute;rez. </p>
-      <p class="col-text">Mtra. Isaura Y&aacute;ñez Noguez. </p>
+      <p class="col-text">Mtra. Isaura Y&aacute;&ntilde;ez Noguez. </p>
       <p class="col-text">Dra. Jessica Karina Suastes Rivas. </p>
       <p class="col-text">Dr. Mario Alberto Mart&iacute;nez Vitela.</p>
       <p class="col-text">Dr. Jes&uacute;s Gracia Fadrique.</p>
@@ -220,7 +220,7 @@
       <p class="col-text">David Morill&oacute;n G&aacute;lvez, IIUNAM. </p>
       <p class="col-text">Diego Aravena, IIUNAM.</p>
       <p class="col-text">Dulce Mar&iacute;a Arias Liz&aacute;rraga, IER.</p>
-      <p class="col-text">Eden Magaña Gallegos, ICML.</p>
+      <p class="col-text">Eden Maga&ntilde;a Gallegos, ICML.</p>
       <p class="col-text">Edgar Escalante Mancera, IIUNAM.</p>
       <p class="col-text">Eduardo Torres Conde, ICML.</p>
       <p class="col-text">Elier Sandoval S&aacute;nchez, IIUNAM.</p>
@@ -235,10 +235,10 @@
       <p class="col-text">Gerardo Ju&aacute;rez Ch&aacute;vez, IIUNAM.</p>
       <p class="col-text">Heidi Isabel Villaf&aacute;n Vidales, IER.</p>
       <p class="col-text">Isaac Vel&aacute;zquez Hern&aacute;ndez, CFATA.</p>
-      <p class="col-text">Ismael Mariño Tapia, ENES-M&eacute;rida. </p>
+      <p class="col-text">Ismael Mari&ntilde;o Tapia, ENES-M&eacute;rida. </p>
       <p class="col-text">Jonathan Ben&iacute;tez Gallardo, IIUNAM.</p>
       <p class="col-text">Jorge Rosas, IIUNAM.</p>
-      <p class="col-text">Jos&eacute; Carlos Pintado Patiño, ENES-M&eacute;rida.</p>
+      <p class="col-text">Jos&eacute; Carlos Pintado Pati&ntilde;o, ENES-M&eacute;rida.</p>
       <p class="col-text">Jos&eacute; Luis L&oacute;pez Miranda, IIUNAM.</p>
       <p class="col-text">Juan Carlos Cajas, ENES-M&eacute;rida.</p>
       <p class="col-text">Karen Hern&aacute;ndez Mendoza, IE.</p>
@@ -256,7 +256,7 @@
       <p class="col-text">Nicol&aacute;s Iv&aacute;n Rom&aacute;n Rold&aacute;n, IER. </p>
       <p class="col-text">Octavio Garcia Valladares, IER.</p>
       <p class="col-text">Patrick Ugochukwu Okoye, IER.</p>
-      <p class="col-text">Rodrigo Alonso Esparza Muñoz, CFATA.</p>
+      <p class="col-text">Rodrigo Alonso Esparza Mu&ntilde;oz, CFATA.</p>
       <p class="col-text">Sebasti&aacute;n Agudelo, IIUNAM.</p>
       <p class="col-text">Valeria Ch&aacute;vez Cer&oacute;n, IIUNAM.</p>
       <p class="col-text">Ziomara de la Cruz Barrag&aacute;n, IIUNAM.</p>
@@ -271,7 +271,7 @@
       <p class="col-text">Coordinaci&oacute;n El&eacute;ctrica y Computaci&oacute;n: Jaime A. Moreno P&eacute;rez</p>
       <p class="col-text">Coordinaci&oacute;n Mec&aacute;nica y Energ&iacute;a: Roberto Giovanni Ram&iacute;rez Chavarr&iacute;a</p>
       <p class="col-text">Unidad Acad&eacute;mica Sisal: Bernardo Figueroa Espinoza</p>
-      <p class="col-text">Unidad Acad&eacute;mica Juriquilla: Germ&aacute;n Buitr&oacute;n M&eacute;ndez, Francisco J. Cervantes Carrillo, Idania Valdez Vazquez, Guillermo Quijano Govantes, Alejandro Vargas Casillas, Juli&aacute;n Carrillo Reyes, Miguel &Aacute;. Vital J&aacute;come, Karla M. Muñoz P&aacute;ez, Gloria Moreno Rodr&iacute;guez, Jaime P&eacute;rez Trevilla, &Aacute;ngel Hern&aacute;ndez Huerta</p>
+      <p class="col-text">Unidad Acad&eacute;mica Juriquilla: Germ&aacute;n Buitr&oacute;n M&eacute;ndez, Francisco J. Cervantes Carrillo, Idania Valdez Vazquez, Guillermo Quijano Govantes, Alejandro Vargas Casillas, Juli&aacute;n Carrillo Reyes, Miguel &Aacute;. Vital J&aacute;come, Karla M. Mu&ntilde;oz P&aacute;ez, Gloria Moreno Rodr&iacute;guez, Jaime P&eacute;rez Trevilla, &Aacute;ngel Hern&aacute;ndez Huerta</p>
     </div> 
     <div class="col-md-6 col-lg-4">
       <p style="color: #474747; font-weight: 700; margin-top: 40px; margin-bottom: 8px;">Colaboradores (IER, UNAM)</p>
@@ -282,7 +282,7 @@
       <p class="col-text">Hugo Olvera Vargas.</p>
       <p class="col-text">Heidi Isabel Villaf&aacute;n Vidales.</p>
       <p class="col-text">Patricio Javier Valad&eacute;s Pelayo.</p>
-      <p class="col-text">Jos&eacute; de Jes&uacute;s Quiñones Aguilar.</p>
+      <p class="col-text">Jos&eacute; de Jes&uacute;s Qui&ntilde;ones Aguilar.</p>
       <p class="col-text">Karla Graciela Cedano Villavicencio.</p>
       <p class="col-text">Manuel Mart&iacute;nez Fern&aacute;ndez.</p>
     </div>
